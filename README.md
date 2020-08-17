@@ -1,3 +1,3 @@
-# :memo studying JavaScript and React.
+# :memo: studying JavaScript and React.
 
 ## state

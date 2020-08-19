@@ -1,68 +1,66 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hook
 
-## Available Scripts
+## 개요
+Hook가 React 버전 16.8에 새로 추가되었습니다.
+Hook은 Class를 작성할 필요 없이 상태 값과 여러 React의 기능을 사용할 수 있습니다.
+ 
+### UseState (State Hook)
+```
+import React, { useState } from 'ract';
 
-In the project directory, you can run:
+function CountNumber() {
+    const [count, setCount] = useState(0);
 
-### `yarn start`
+    return (
+    <div>
+        <p>You clicked {count} times</p>
+        <button onClick={() => {setCount(count + 1)}}>Click Me</button>
+    </div>
+    );
+}
+```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Hook을 호출해 함수 컴포넌트 안에 state를 추가.
+이 state는 컴포넌트가 다시 렌더링 되어도 그대로 유지.
+useState는 현재의 state 값과 이 값을 업데이트하는 함수를 쌍으로 제공.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+**찾아보기: useState와 this.state를 비교**
 
-### `yarn test`
+### useEffect (Effect Hook)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React 컴포넌트 안에서 데이터를 가져오거나 구독하고, DOM을 직접 조작하는 작업.
+다른 컴포넌트에 영향을 줄 수 있고, 렌더링 과정에서는 구현할 수 없는 작업.
 
-### `yarn build`
+useEffect는 함수 컴포넌트 내에서 side effects를 수행.
+componentDidMount, componentDidUpdate, componentWillUnmount
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+import React, { useState, useEffect } from 'react';
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+function Example() {
+  const [count, setCount] = useState(0);
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+  useEffect(() => {
+    document.title = `You clicked ${count} times`;
+  });
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
+}
+```
+리액트는 우리가 넘긴 함수를 기억(Effect)했다가 DOM 업데이트를 수행한 이후에 불러냅니다.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Hook의 규칙
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### 최상위에서만 Hook을 호출한다.
+반복문, 조건문, 중첩된 함수 내에서 Hook을 호출하면 안된다.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+#### 오직 React 함수 내에서 Hook을 호출한다.
+Hook을 일반적인 Javascript 함수에서 호출하면 안된다.

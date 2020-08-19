@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import PopupMenu from './PopupMenu'
 
 import { AiOutlineSearch } from "react-icons/ai";
 import { AiOutlineEllipsis } from "react-icons/ai";
@@ -7,7 +8,22 @@ import { AiOutlineEllipsis } from "react-icons/ai";
 function Header (props) {
 
     const {} = props;
-    const specialChars = {__html: '&copy;&mdash;&ldquo;'}
+
+    const [ popupmenu, handleMenu ] = useState(false)
+
+    function FriendListItem(props) {
+        const [isOnline, setIsOnline] = useState(null);
+        useEffect(() => {
+            function handleStatusChange(status) {
+                setIsOnline(status.isOnline);
+            }
+            ChatAPI.subscribeToFriendStatus(props.friend.id, handleStatusChange);
+            return () => {
+                ChatAPI.unsubscribeFromFriendStatus(props.friend.id, handleStatusChange);
+            };
+        });
+    }
+
     return (
         <Container>
             <HeaderTop>
@@ -21,7 +37,7 @@ function Header (props) {
                         <p className={"text"}>Photos for everyone</p>
                     </Text>
                 </Logo>
-                <Input>
+                <Input style={{ color: isOnline ? 'green' : 'black' }}>
                     <AiOutlineSearch color={"#666"} size={"26"} />
                     <input className={"search"} type="text" placeholder={"Search free high-resolution photos"}/>
                 </Input>
@@ -29,7 +45,13 @@ function Header (props) {
                 <Menu>
                     <Link>Topics</Link>
                     <Link>Explore</Link>
-                    <Link><AiOutlineEllipsis size={"30"}/></Link>
+                    <Link onClick={() => {
+                        handleMenu(true)
+                    }}><AiOutlineEllipsis size={"30"}/></Link>
+                    {
+                        popupmenu &&
+                        <PopupMenu handleMenu={handleMenu}/>
+                    }
                     <Button>
                         <Link className={"btnSubmit"}>Submit a photo</Link>
                         <Link className={"btnLogin"}>Login</Link>
@@ -118,11 +140,12 @@ const Input = styled.div`
   flex: 4 1 0;  
   padding: 5px 10px;
   .search {
-    border: 0;
+    width: 100%;
+    height: 100%;
     background: none;
     margin-left: 10px;
+    border: 0;
     font-size: 16px;
-    width: 100%;
   }
 `;
 const Menu = styled.div`
@@ -229,4 +252,5 @@ const List = styled.div`
     overflow-y: hidden;
     white-space: nowrap;
 `;
+
 export default Header;

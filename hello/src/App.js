@@ -1,8 +1,11 @@
 import React, {useEffect, useState} from 'react';
 import styled from 'styled-components';
+
 import Popup from "./components/Popup";
-import axios from 'axios'
 import User from "./components/User";
+import Form from "./components/Form";
+
+import axios from 'axios'
 
 function App (props) {
 
@@ -25,6 +28,7 @@ function App (props) {
             {
                 popup && <Popup onClose={setPopup}/>
             }
+            <Form/>
             <UserCotainer>
                 {
                     users.map((user, index) => {

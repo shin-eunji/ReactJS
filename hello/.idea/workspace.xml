@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c3516d-b926-4c61-8251-9f3f88efa65c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../start" beforeDir="false" afterPath="$PROJECT_DIR$/../start" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,10 +44,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="copyright" />
@@ -61,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597725610310</updated>
-      <workItem from="1597725611622" duration="12940000" />
+      <workItem from="1597725611622" duration="14590000" />
     </task>
     <servers />
   </component>
@@ -80,6 +82,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="445" y="424" key="#ESLint" timestamp="1597808732258">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="445" y="424" key="#ESLint/0.0.1680.1050@0.0.1680.1050" timestamp="1597808732257" />
     <state x="141" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597725645814">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -88,9 +94,13 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1597727740525" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1597808309338">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1597808948217">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1597808309338" />
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1597808948217" />
+    <state x="249" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1597809035689">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="249" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1597809035689" />
   </component>
 </project>

@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import styled from 'styled-components';
-
-import {AiOutlineSearch} from "react-icons/ai/index";
+import Post from "./Post";
+import axios from 'axios'
 
 function Content (props) {
 
@@ -9,33 +9,41 @@ function Content (props) {
 
     } = props;
 
+    const [post, setPost ] = useState([])
+
+    useEffect(() => {
+        axios.get("https://api.unsplash.com/photos/?client_id=t_jbP7JejOj1keyZ7UiEl1BZcoPHG3vxmy3rPUGhVRc").then(res => {
+            const data = res.data;
+            setPost(data);
+            console.log("data", data);
+        })
+    }, [])
+
     return (
         <Container>
-            <Visual>
-                <Text>
-                    Unsplash
-                    <p>The internet’s source of freely-usable images.
-                    Powered by creators everywhere.</p>
-                    <Input>
-                        <AiOutlineSearch color={"#666"} size={"26"} />
-                        <input className={"search"} type="text" placeholder={"Search free high-resolution photos"}/>
-                    </Input>
-                </Text>
-            </Visual>
+            <PostList>
+                {
+                    post.map((item, index) => {
+                        return <Post key={index} item={item}/>
+                    })
+                }
+            </PostList>
+
         </Container>
     )
 }
 
 const Container = styled.div`
+  display:flex;
+  justify-content:center;
+  align-items:center;
 `
+const PostList = styled.div`
+  width: 1000px;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+`;
 
-const Visual = styled.div`
-    
-`;
-const Text = styled.div`
-    
-`;
-const Input = styled.div`
-    
-`;
+
 export default Content;

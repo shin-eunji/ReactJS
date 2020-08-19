@@ -11,19 +11,6 @@ function Header (props) {
 
     const [ popupmenu, handleMenu ] = useState(false)
 
-    function FriendListItem(props) {
-        const [isOnline, setIsOnline] = useState(null);
-        useEffect(() => {
-            function handleStatusChange(status) {
-                setIsOnline(status.isOnline);
-            }
-            ChatAPI.subscribeToFriendStatus(props.friend.id, handleStatusChange);
-            return () => {
-                ChatAPI.unsubscribeFromFriendStatus(props.friend.id, handleStatusChange);
-            };
-        });
-    }
-
     return (
         <Container>
             <HeaderTop>
@@ -37,7 +24,7 @@ function Header (props) {
                         <p className={"text"}>Photos for everyone</p>
                     </Text>
                 </Logo>
-                <Input style={{ color: isOnline ? 'green' : 'black' }}>
+                <Input>
                     <AiOutlineSearch color={"#666"} size={"26"} />
                     <input className={"search"} type="text" placeholder={"Search free high-resolution photos"}/>
                 </Input>
@@ -60,7 +47,7 @@ function Header (props) {
                 </Menu>
             </HeaderTop>
             <Nav>
-                <Link>Editorial</Link>
+                <Link className={"active"}>Editorial</Link>
                 <List>
                     <Link>Sustainability</Link>
                     <Link>Film</Link>
@@ -160,13 +147,12 @@ const Link = styled.div`
     padding: 0 20px;
     color: #666;
     font-size: 15px;
-    font-weight: 500;
+    font-weight:600;
     cursor: pointer;
     &:hover {
       color: #111;
     }
-    
-`;  
+`;
 const Button = styled.div`
   display:flex;
   flex-direction:row;
@@ -228,7 +214,7 @@ const Nav = styled.div`
         top: 0;
         right: 0;
         left: 0;
-        padding: 30px;
+        padding: 20px 30px;
       &:before {
       content: "";
       position:absolute;
@@ -237,6 +223,21 @@ const Nav = styled.div`
       background: linear-gradient(to right, rgba(255,255,255,.0), rgba(255,255,255,1));
       width: 200px;
       height: 100%;
+      }
+    }
+    .active {
+      width: 100px;
+      height: 100%;
+      position:relative;
+      color: #111;
+      &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -20px;
+        width: 100px;
+        height: 3px;
+        background: #000;
       }
     }
 `;

@@ -20,10 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c3516d-b926-4c61-8251-9f3f88efa65c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unspash/src/components/Menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unspash/src/components/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unspash/src/components/Tag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unspash/src/components/Visual.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unspash/src/components/pages/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../start" beforeDir="false" afterPath="$PROJECT_DIR$/../start" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unspash/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../unspash/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unspash/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../unspash/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unspash/src/components/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/../unspash/src/components/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unspash/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../unspash/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unspash/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../unspash/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597725610310</updated>
-      <workItem from="1597725611622" duration="14590000" />
+      <workItem from="1597725611622" duration="19791000" />
     </task>
     <servers />
   </component>
@@ -102,5 +110,16 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="249" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1597809035689" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Form.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

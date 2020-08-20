@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
+import Popup from "./Popup";
 
 function Post (props) {
 
@@ -7,11 +8,17 @@ function Post (props) {
         item
     } = props;
     
-    console.log("item", item);
+    const [ popup, handlePopup ] = useState(false)
 
     return (
         <Container>
-            <Photo>
+            <Photo onClick={() => {
+                handlePopup(true)
+            }}>
+                {
+                    popup &&
+                        <Popup onClick={on} />
+                }
                 <img src={item.urls.small} />
             </Photo>
         </Container>
@@ -19,10 +26,8 @@ function Post (props) {
 }
 
 const Container = styled.div`
-    width: 100px;
-    height: 300px;
-    border: 1px solid #000;
     margin: 40px 0;
+    flex: 1 1 0;
 `
 const Photo = styled.div`
     

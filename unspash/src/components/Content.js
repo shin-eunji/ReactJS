@@ -39,9 +39,10 @@ const Container = styled.div`
   align-items:center;
 `
 const PostList = styled.div`
-  width: 1000px;
+  width: 1200px;
   display:flex;
-  align-items:center;
+  flex-wrap: wrap;
+  align-items:flex-start;
   justify-content: space-between;
 `;
 

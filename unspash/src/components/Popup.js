@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { AiOutlineClose } from "react-icons/ai";
+
 function Popup (props) {
 
     const {
@@ -9,9 +11,13 @@ function Popup (props) {
 
     return (
         <Container onClick={() => {
-            handlePopup(true)
+            onClose(false)
         }}>
-            팝업입니다.{popup}
+            <PopupBox>
+            </PopupBox>
+            <Close>
+                <AiOutlineClose/>
+            </Close>
         </Container>
     )
 }
@@ -24,8 +30,25 @@ const Container = styled.div`
   bottom: 0;
   background-color: rgba(0,0,0,.3);
   display:flex;
+  height: 3000px;
   justify-content:center;
-  align-items:center;
   
 `
+const PopupBox = styled.div`
+  margin-top: 100px;
+    align-items:center;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 90%;
+    height: 300px;
+    
+`;
+const Close = styled.div`
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 24px;
+    font-weight:bold;
+`;
 export default Popup;

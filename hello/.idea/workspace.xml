@@ -21,7 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a2c3516d-b926-4c61-8251-9f3f88efa65c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../start" beforeDir="false" afterPath="$PROJECT_DIR$/../start" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unspash/src/components/Popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../unspash/src/components/Popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unspash/src/components/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/../unspash/src/components/Post.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597725610310</updated>
       <workItem from="1597725611622" duration="20473000" />
+      <workItem from="1597906638276" duration="944000" />
     </task>
     <servers />
   </component>
@@ -78,6 +82,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="445" y="424" key="#ESLint" timestamp="1597808732258">
@@ -106,7 +111,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/Form.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

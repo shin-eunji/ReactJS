@@ -11,9 +11,11 @@ function App (props) {
 
     const {} = props;
 
+    const [ popup, setPopup ] = useState(false)
+    const [ users, setUsers ] = useState([])
+
     return (
         <Container>
-
         </Container>
     )
 }

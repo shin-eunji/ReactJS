@@ -11,31 +11,9 @@ function App (props) {
 
     const {} = props;
 
-    const [ popup, setPopup ] = useState(false)
-    const [ users, setUsers ] = useState([])
-
-    useEffect(()=> {
-        axios.get("http://jsonplaceholder.typicode.com/users").then(res => {
-            const data = res.data;
-            setUsers(data);
-        })
-    }, [])
     return (
         <Container>
-            <Button onClick={() => {
-                setPopup(true)
-            }}>팝업 보여주기</Button>
-            {
-                popup && <Popup onClose={setPopup}/>
-            }
-            <Form/>
-            <UserCotainer>
-                {
-                    users.map((user, index) => {
-                        return <User key={index} user={user}/>
-                    })
-                }
-            </UserCotainer>
+
         </Container>
     )
 }

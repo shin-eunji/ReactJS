@@ -144,7 +144,7 @@ const Menu = styled.div`
 `;
 const Link = styled.div`
     width: auto;
-    padding: 0 20px;
+    padding: 20px;
     color: #666;
     font-size: 15px;
     font-weight:600;
@@ -214,7 +214,7 @@ const Nav = styled.div`
         top: 0;
         right: 0;
         left: 0;
-        padding: 20px 30px;
+        padding: 0 30px;
       &:before {
       content: "";
       position:absolute;
@@ -234,7 +234,7 @@ const Nav = styled.div`
         content: "";
         position: absolute;
         left: 0;
-        bottom: -20px;
+        bottom: 0px;
         width: 100px;
         height: 3px;
         background: #000;

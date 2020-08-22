@@ -44,6 +44,7 @@ const PostList = styled.div`
   flex-wrap: wrap;
   align-items:flex-start;
   justify-content: space-between;
+  margin: 40px 0;
 `;
 
 

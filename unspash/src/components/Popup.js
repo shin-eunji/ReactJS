@@ -13,9 +13,11 @@ function Popup (props) {
         <Container onClick={() => {
             onClose(false)
         }}>
-            <PopupBox>
+            <PopupBox onClick={false}>
             </PopupBox>
-            <Close>
+            <Close onClick={() => {
+                onClose(false)
+            }}>
                 <AiOutlineClose/>
             </Close>
         </Container>
@@ -23,25 +25,27 @@ function Popup (props) {
 }
 
 const Container = styled.div`
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,.3);
+  background-color: rgba(0,0,0,.5);
   display:flex;
   height: 3000px;
   justify-content:center;
-  
+  z-index: 100;
+  cursor: zoom-out;
 `
 const PopupBox = styled.div`
-  margin-top: 100px;
+    margin-top: 30px;
     align-items:center;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 90%;
     height: 300px;
-    
+    cursor: default;
+    z-index: 101;
 `;
 const Close = styled.div`
     position: absolute;
@@ -50,5 +54,6 @@ const Close = styled.div`
     color: #fff;
     font-size: 24px;
     font-weight:bold;
+    cursor: pointer;
 `;
 export default Popup;

@@ -50,13 +50,16 @@ const Text = styled.div`
 const Input = styled.div`
   display:flex;
   flex-wrap:wrap;
+  flex-direction:row;
   align-items: center;
   background: #fff;
   border-radius: 5px;
-  padding: 14px 10px;
+  padding: 6px 10px;
   input {
     border: none;
+    width: 90%;
     margin-left: 10px;
+    padding: 10px 0;
   }
 `;
 const TagBoxBlock = styled.div`
@@ -66,6 +69,7 @@ const TagBoxBlock = styled.div`
     display:flex;
     flex-direction:row;
     align-items:center;
+    margin: 10px 0;
 `;
 const TagList = styled.div`
     font-weight: 600;

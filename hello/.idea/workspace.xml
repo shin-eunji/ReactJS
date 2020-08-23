@@ -20,10 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c3516d-b926-4c61-8251-9f3f88efa65c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/User.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../start" beforeDir="false" afterPath="$PROJECT_DIR$/../start" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unspash/src/components/Popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../unspash/src/components/Popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unspash/src/components/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/../unspash/src/components/Post.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +73,8 @@
       <updated>1597725610310</updated>
       <workItem from="1597725611622" duration="20473000" />
       <workItem from="1597906638276" duration="1482000" />
-      <workItem from="1597998213780" duration="81000" />
+      <workItem from="1597998213780" duration="247000" />
+      <workItem from="1598162859350" duration="2254000" />
     </task>
     <servers />
   </component>
@@ -97,10 +106,19 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1597727740525" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1597808948217">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1598164270634">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1597808948217" />
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1598164270634" />
+    <state x="100" y="100" width="1480" height="850" key="dock-window-1" timestamp="1598163982477">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="dock-window-1/0.0.1680.1050@0.0.1680.1050" timestamp="1598163982477" />
+    <state x="505" y="248" key="run.anything.popup" timestamp="1598164069815">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="248" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598162930368" />
+    <state x="505" y="248" key="run.anything.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598164069815" />
     <state x="249" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1597809035689">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

@@ -1,10 +1,10 @@
 const initialState = {
-    openSidebar: false,
-    popup: false
+    isLoggedIn: false,
+    info: null
 }
 const Action = {
     Types: {
-        UPDATE_STATE: '@@APP/UPDATE_STATE'
+        UPDATE_STATE: '@@USER/UPDATE_STATE'
     },
     Creaters: {
         updateState: (props) => ({

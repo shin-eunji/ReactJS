@@ -6,7 +6,7 @@ function Header (props) {
 
     const {} = props;
 
-    const [popup, handlePopup] = useState(false)
+    const [popup, handlePopup] = useState(true)
 
     return (
         <Container>
@@ -17,7 +17,7 @@ function Header (props) {
                 </svg>
             </Logo>
             <Nav>
-                <Link>About</Link>
+                <Link onClick={() => handlePopup(true)}>About</Link>
                 <Link>Home</Link>
                 <Link>Service</Link>
                 <Link>Contact</Link>
@@ -26,11 +26,10 @@ function Header (props) {
                 () => {
                     handlePopup(true)
                 }
-            }>문의하기</Button>
+            }>Login</Button>
             {
-
                 popup &&
-                    <Popup/>
+                    <Popup onClose={handlePopup}/>
             }
         </Container>
     )

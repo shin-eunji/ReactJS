@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { AiOutlineClose } from "react-icons/ai";
+import Login from "./Login";
 
 
 function Popup (props) {
@@ -12,7 +13,8 @@ function Popup (props) {
 
     return (
         <Container>
-            <Button>
+            <Login/>
+            <Button onClick={() => onClose(false)}>
                 <AiOutlineClose/>
             </Button>
         </Container>
@@ -34,6 +36,9 @@ const Container = styled.div`
   align-items:center;
 `
 const Button = styled.div`
-    
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  cursor: pointer;
 `;
 export default Popup;

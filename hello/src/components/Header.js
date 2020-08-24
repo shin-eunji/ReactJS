@@ -6,7 +6,7 @@ function Header (props) {
 
     const {} = props;
 
-    const [popup, handlePopup] = useState(true)
+    const [popup, handlePopup] = useState(false)
 
     return (
         <Container>

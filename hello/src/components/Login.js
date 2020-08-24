@@ -1,10 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
 import {AiOutlineUser, AiOutlineLock} from 'react-icons/ai'
 
 function Login (props) {
 
     const {} = props;
+
+    const [value, setValue] = useState([])
 
     return (
         <Container>
@@ -13,12 +15,34 @@ function Login (props) {
                 <LoginForm>
                     <Input>
                         <AiOutlineUser color={"#000"} size={"26"} padding={"10"}/>
-                        <input type="text" name={"email"} placeholder={"Eamil"}/>
+                        <input type="text"
+                               name={"email"}
+                               placeholder={"Eamil"}
+                               onChange={(e) => {
+                                   setValue({
+                                       ...value,
+                                       email: e.target.value
+                                   })
+                               }}
+                        />
                     </Input>
                     <Input>
                         <AiOutlineLock color={"#000"} size={"26"} padding={"10"}/>
-                        <input type="password" name={"password"} placeholder={"Password"}/>
+                        <input type="password"
+                               name={"password"}
+                               placeholder={"Password"}
+                               onChange={(e) => {
+
+                                   setValue({
+                                       ...value,
+                                       password: e.target.value
+                                   })
+                               }}
+                        />
                     </Input>
+                    <Button onClick={() => {
+                        console.log("value", value);
+                    }}>Login</Button>
                 </LoginForm>
             </LoginBox>
         </Container>
@@ -44,10 +68,9 @@ const LoginBox = styled.div`
 const LoginForm = styled.div`
   display:flex;
   flex-direction:column;
-  width: 60%;
+  width: 100%;
 `;
 const Input = styled.div`
-  width: 300px;
   border: 1px solid #aaa;
   -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;
   display:flex;
@@ -60,5 +83,14 @@ const Input = styled.div`
   &:hover {
     border: 1px solid #111;
   } 
+`;
+const Button = styled.div`
+    background: #ffcc00;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
 `;
 export default Login;

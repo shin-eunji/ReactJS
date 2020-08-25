@@ -1,8 +1,8 @@
-import {combineReducers} from 'redux'
-import {reducer as appReducer} from './app/redux'
-import {reducer as userReducer} from './user/redux'
+import {combineReducers} from 'redux';
+import {reducer as appReducer} from './app/redux';
+import {reducer as userReducer} from './user/redux';
 
-const  reducers = combineReducers({
+const reducers = combineReducers({
     app: appReducer,
     user: userReducer
 })

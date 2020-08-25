@@ -1,31 +1,39 @@
 const initialState = {
     openSidebar: false,
-    popup: false
+    popup: false,
 }
+
+
 const Action = {
     Types: {
         UPDATE_STATE: '@@APP/UPDATE_STATE'
     },
-    Creaters: {
-        updateState: (props) => ({
+
+    Creators: {
+        updateState: (payload) =>({
             type: Action.Types.UPDATE_STATE,
-            props
+            payload
         })
     }
 }
 
-Action.Creaters.updateState();
-// {type: '@@APP/UPDATE_STATE'}
-const reducer =  (state = initialState, action) => {
-    switch(action.type) {
-        default: return state;
-        case Action.Types.UPDATE_STATE: {
-            return {
-                ...state,
-                ...action.props
-            }
-        }
-    }
+// Action.Creators.updateState();
+// {
+//  type: '@@APP/UPDATE_STATE'
+// }
+
+const reducer = (state = initialState, action) => {
+    console.log("action", action);
+   switch (action.type) {
+       default: return state;
+
+       case Action.Types.UPDATE_STATE: {
+           return {
+               ...state,
+               ...action.payload
+           }
+       }
+   }
 }
 
 export {reducer, Action}

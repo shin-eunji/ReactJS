@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import Sidebar from "../Sidebar";
 import {useDispatch, useSelector} from "react-redux";
 import {Action} from "../../../redux/app/redux";
+import {Link} from "react-router-dom";
+import {navigate} from "../../../Helpers/History";
 
 function Appbar (props) {
 
@@ -14,6 +16,16 @@ function Appbar (props) {
     return (
         <Container>
             <Logo>Logo</Logo>
+            <Gnb>
+                <Nav>
+                    <NavItem onClick={() => {
+                        navigate("/")
+                    }}>Home</NavItem>
+                    <NavItem onClick={() => {
+                        navigate("/user")
+                    }}>User</NavItem>
+                </Nav>
+            </Gnb>
             <ButtonMenu onClick={() => {
                 dispatch(Action.Creators.updateState({
                     openSidebar: !openSidebar
@@ -35,7 +47,24 @@ const Container = styled.div`
 const Logo = styled.div`
     
 `;
+const Gnb = styled.div`
+    display: flex;
+`;
+const Nav = styled.nav`
+    display: flex;
+`;
+const NavItem = styled(Link)`
+    display:flex;
+    align-items:center;
+    height: 70px;
+    padding: 0 25px;
+    cursor: pointer;
+    
+`;
 const ButtonMenu = styled.div`
   cursor: pointer;
+  display: flex;
+  align-items:center;
+  padding: 0 20px;
 `;
 export default Appbar;

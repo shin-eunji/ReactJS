@@ -2,6 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import Appbar from "./views/components/Appbar";
 import {useSelector} from "react-redux";
+import {Switch, Route} from "react-router-dom";
+import Home from "./views/pages/Home";
+import User from "./views/pages/User";
 
 function App (props) {
 
@@ -13,6 +16,14 @@ function App (props) {
     return (
         <Container>
             <Appbar/>
+
+
+            <Switch>
+                <Route path={"/"} component={Home}/>
+                <Route path={"/user"} component={User}/>
+            </Switch>
+
+            Popup/
         </Container>
     )
 }

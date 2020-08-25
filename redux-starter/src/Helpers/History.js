@@ -2,8 +2,10 @@ import {createBrowserHistory} from 'history';
 
 const HISTORY = createBrowserHistory()
 
-funtion
+const navigate = url => {
+    HISTORY.push(url);
+}
 
 
 
-export {HISTORY}
+export {HISTORY, navigate}

@@ -5,6 +5,7 @@ import {useSelector} from "react-redux";
 import {Switch, Route} from "react-router-dom";
 import Home from "./views/pages/Home";
 import User from "./views/pages/User";
+import Popup from "./views/components/Popup";
 
 function App (props) {
 
@@ -23,7 +24,8 @@ function App (props) {
                 <Route path={"/user"} component={User}/>
             </Switch>
 
-            Popup/
+            <Popup/>
+
         </Container>
     )
 }

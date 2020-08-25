@@ -1,18 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
-import Visual from "./Visual";
 
-function Home (props) {
+function Popup (props) {
 
     const {} = props;
 
     return (
         <Container>
-            <Visual></Visual>
+            Popup
         </Container>
     )
 }
 
 const Container = styled.div`
 `
-export default Home;
+export default Popup;

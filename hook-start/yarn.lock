@@ -8841,6 +8841,11 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
+reducer@^0.19.2:
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/reducer/-/reducer-0.19.2.tgz#8e140234070c118e016067107b5551bdc1c58e7b"
+  integrity sha1-jhQCNAcMEY4BYGcQe1VRvcHFjns=
+
 regenerate-unicode-properties@^8.2.0:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/regenerate-unicode-properties/-/regenerate-unicode-properties-8.2.0.tgz#e5de7111d655e7ba60c057dbe9ff37c87e65cdec"

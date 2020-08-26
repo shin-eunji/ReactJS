@@ -1,35 +1,26 @@
 import React from 'react';
-import styled from 'styled-components';
-import Appbar from "./views/components/Appbar";
-import {useSelector} from "react-redux";
-import {Switch, Route} from "react-router-dom";
-import Home from "./views/pages/Home";
-import User from "./views/pages/User";
-import Popup from "./views/components/Popup";
+import logo from './logo.svg';
+import './App.css';
 
-function App (props) {
-
-    const {} = props;
-    
-    const app = useSelector(state => state.app)
-    console.log("app", app);
-
-    return (
-        <Container>
-            <Appbar/>
-
-
-            <Switch>
-                <Route path={"/"} component={Home}/>
-                <Route path={"/user"} component={User}/>
-            </Switch>
-
-            <Popup/>
-
-        </Container>
-    )
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
-const Container = styled.div`
-`
 export default App;

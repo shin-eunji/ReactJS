@@ -1,35 +1,31 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useReducer, useState} from 'react';
 import styled from 'styled-components';
 
+function reducer(state, action) {
+    return {
+        ...state,
+        [action.name]: action.value
+    }
+}
 function Info (props) {
 
     const {} = props;
 
-    const [name, setName] = useState()
-    const [nickname, setNickname] = useState()
-    
-    useEffect(() => {
-        console.log("name", name);
+    const [state, dispatch] = useReducer(reducer, {
+        name: '',
+        nickname: ''
+    })
 
-        return () => {
-            console.log("name", name);
-        }
-    }, [name])
-    
-    const onChangeName = (e) => {
-        setName(e.target.value)
+    const { name, nickname } = state;
+    const onChange = e => {
+        dispatch(e.target)
     }
-
-    const onChangeNickname = e => {
-        setNickname(e.target.value)
-    }
-
 
     return (
         <Container>
             <Input>
-                <input type="text" value={name} onChange={onChangeName} placeholder={"Name"}/>
-                <input type="text" value={nickname} onChange={onChangeNickname} placeholder={"Nick Name"}/>
+                <input type="text" value={name} onChange={onChange} placeholder={"Name"}/>
+                <input type="text" value={nickname} onChange={onChange} placeholder={"Nick Name"}/>
             </Input>
             <hr/>
             <Text>

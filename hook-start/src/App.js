@@ -15,10 +15,16 @@ function App (props) {
             <button onClick={() => {
                 setVisible(!visible)
             }}>
+                {visible ? '보이기' : '숨기기'}
+            </button>
+            <button onClick={() => {
+                setVisible(!visible)
+            }}>
                 {visible ? '숨기기' : '보이기'}
             </button>
             {visible && <Info/>}
             <CounterReducer/>
+            <Info />
         </Container>
     )
 }

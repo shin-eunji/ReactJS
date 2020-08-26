@@ -1,17 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function App (props) {
+function Sidebar (props) {
 
     const {} = props;
 
     return (
         <Container>
-            App
+            Sidebar
         </Container>
     )
 }
 
 const Container = styled.div`
 `
-export default App;
+export default Sidebar;

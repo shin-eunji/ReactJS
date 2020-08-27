@@ -27,16 +27,33 @@ function visual (props) {
 }
 
 const Container = styled.div`
+  position:relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
   display:flex;
   flex-direction:column;
   align-items:center;
-  background: #000;
+  z-index: 1;
+  background: url("https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1467&q=80") 50% 70% / cover no-repeat;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.25);
+    z-index: 10;
+  }
 `
 const Text = styled.div`
-  margin: 140px 0;
+  margin: 200px 0;
   color: #fff;
   font-size: 48px;
   font-weight: 800;
+  z-index: 100;
   p{
       font-size: 18px;
       font-weight: 500;

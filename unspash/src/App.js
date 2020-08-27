@@ -1,8 +1,12 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
-import Header from "./components/Header";
-import Content from "./components/Content";
-import Visual from "./components/Visual";
+import {Route, Switch} from "react-router-dom";
+
+import Main from "./views/pages/Main";
+import Login from "./views/pages/Login";
+import Page from "./views/pages/Page";
+import Join from "./views/pages/Join";
+
 
 function App (props) {
 
@@ -11,9 +15,13 @@ function App (props) {
 
     return (
         <Container>
-          <Header/>
-          <Visual/>
-          <Content/>
+          <Switch>
+             <Route path={"/"} component={Main} exact={true}/>
+             <Route path={"/login"} component={Login}/>
+              <Route path={"/join"} component={Join}/>
+             <Route path={"/page"} component={Page}/>
+          </Switch>
+
         </Container>
     )
 }

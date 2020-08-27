@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
+import FacebookLogin from 'react-facebook-login';
+import {Link} from "react-router-dom";
 
 function Login (props) {
 
@@ -7,22 +9,27 @@ function Login (props) {
 
     const [ value, setValue ] = useState([])
 
+    const responseFacebook = (response) => {
+        console.log(response);
+    }
 
     return (
         <Container>
             <LoginHeader className="Login-header">
-                <svg width="32" height="32" className="_1Jlgk" version="1.1" viewBox="0 0 32 32"
-                     aria-labelledby="unsplash-home" aria-hidden="false"><title id="unsplash-home">Unsplash Home</title>
-                    <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
-                </svg>
+                <img src="https://unsplash.com/assets/core/logo-black-df2168ed0c378fa5506b1816e75eb379d06cfcd0af01e07a2eb813ae9b5d7405.svg" alt="unsplash" width={"60"}/>
                 <p className={"login-title"}>Login</p>
-                <p>Welcome Back.</p>
+                <p className={"login-text"}>Welcome Back.</p>
             </LoginHeader>
             <LoginBody className="login-body">
-                <LoginFacebook>
-                    <button>Login with Facebook</button>
-                </LoginFacebook>
-                <p></p>
+                <FacebookLogin
+                    appId="1088597931155576"
+                    autoLoad={false}
+                    fields="name,email,picture"
+                    callback={responseFacebook}
+                    fontSize={"30"}
+                    icon={"fa-facebook"}
+                />
+                <p>OR</p>
                 <InputContainer>
                     <Input>
                         <p>Eamil</p>
@@ -57,13 +64,15 @@ function Login (props) {
                         }}>Login</button>
                     </LoginButton>
                 </InputContainer>
-                <Join className={"join"}>Don't have an account?<a href="#">Join</a></Join>
+                <Join className={"join"}>Don't have an account?
+                    <Link to={"/join"}>Join</Link></Join>
             </LoginBody>
         </Container>
     )
 }
 
 const Container = styled.div`
+  height: 100vh;
   display:flex;
   flex-wrap: wrap;
   align-items:center;
@@ -79,22 +88,32 @@ const LoginHeader = styled.div`
     font-weight:800;
     font-size: 30px;
     margin: 20px 0;
-  }  
+  }
+  .login-text {
+    font-size: 16px;
+  } 
 `;
 const LoginBody = styled.div`
   display:flex;
   flex-direction:column;
   align-items:center;
-`;
-const LoginFacebook = styled.div`
-  margin: 20px 0;
-  button {}
+  .kep-login-facebook {
+    background: #1778f2;
+    font-size: 16px;
+    text-transform: inherit;
+    border: 0;
+    width: 100%;
+    margin: 30px 0;
+    &.metro {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
 `;
 const InputContainer = styled.div`
   display:flex;
   flex-direction:column;
   width: 100%;
-  margin: 30px 0;
   border-radius: 5px;
 `
 const Input = styled.div`
@@ -111,12 +130,13 @@ const Input = styled.div`
     font-size: 16px;
   }
   input {
+    width: 560px;
     height: 36px;
     border-radius: 5px;
     border: 1px solid #666;
     margin-bottom: 20px;
-    padding: 20px 0;
-    width: 560px;
+    padding: 20px 10px;
+    
   }
   .forgot {
     position: absolute;
@@ -144,6 +164,7 @@ const LoginButton = styled.div`
 `;
 const Join = styled.div`
   text-align:center;
+  margin-top: 30px;
   a {
     color: #666;
     text-decoration: underline;

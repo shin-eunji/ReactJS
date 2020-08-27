@@ -4,6 +4,7 @@ import PopupMenu from './PopupMenu'
 
 import { AiOutlineSearch } from "react-icons/ai";
 import { AiOutlineEllipsis } from "react-icons/ai";
+import {Link} from "react-router-dom";
 
 function Header (props) {
 
@@ -14,7 +15,7 @@ function Header (props) {
     return (
         <Container>
             <HeaderTop>
-                <Logo path="/">
+                <Logo to={"/"}>
                     <svg width="32" height="32" className="_1Jlgk" version="1.1" viewBox="0 0 32 32"
                          aria-labelledby="unsplash-home" aria-hidden="false"><title id="unsplash-home">Unsplash Home</title>
                         <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
@@ -30,46 +31,46 @@ function Header (props) {
                 </Input>
 
                 <Menu>
-                    <Link>Topics</Link>
-                    <Link>Explore</Link>
-                    <Link onClick={() => {
+                    <Linked>Topics</Linked>
+                    <Linked>Explore</Linked>
+                    <Linked onClick={() => {
                         handleMenu(true)
-                    }}><AiOutlineEllipsis size={"30"}/></Link>
+                    }}><AiOutlineEllipsis size={"30"}/></Linked>
                     {
                         popupmenu &&
                         <PopupMenu handleMenu={handleMenu}/>
                     }
                     <Button>
-                        <Link className={"btnSubmit"}>Submit a photo</Link>
-                        <Link className={"btnLogin"}>Login</Link>
-                        <Link className={"btnJoin"}>Join free</Link>
+                        <Linked className={"btnSubmit"}>Submit a photo</Linked>
+                        <Linked className={"btnLogin"} to={"login"}>Login</Linked>
+                        <Linked className={"btnJoin"} to={"Join"}>Join free</Linked>
                     </Button>
                 </Menu>
             </HeaderTop>
             <Nav>
-                <Link className={"active"}>Editorial</Link>
+                <Linked className={"active"}>Editorial</Linked>
                 <List>
-                    <Link>Sustainability</Link>
-                    <Link>Film</Link>
-                    <Link>Wallpapers</Link>
+                    <Linked>Sustainability</Linked>
+                    <Linked>Film</Linked>
+                    <Linked>Wallpapers</Linked>
                     <Link>COVID-19</Link>
-                    <Link>Travel</Link>
-                    <Link>Nature</Link>
-                    <Link>Textures &amp; Patterns</Link>
-                    <Link>Current Events</Link>
-                    <Link>People</Link>
-                    <Link>Business &amp; Work</Link>
-                    <Link>Technology</Link>
-                    <Link>Animals</Link>
-                    <Link>Interiors</Link>
-                    <Link>Architecture</Link>
-                    <Link>Texture &amp; Patterns</Link>
-                    <Link>Current Events</Link>
-                    <Link>People</Link>
-                    <Link>Business &amp; Work</Link>
+                    <Linked>Travel</Linked>
+                    <Linked>Nature</Linked>
+                    <Linked>Textures &amp; Patterns</Linked>
+                    <Linked>Current Events</Linked>
+                    <Linked>People</Linked>
+                    <Linked>Business &amp; Work</Linked>
+                    <Linked>Technology</Linked>
+                    <Linked>Animals</Linked>
+                    <Linked>Interiors</Linked>
+                    <Linked>Architecture</Linked>
+                    <Linked>Texture &amp; Patterns</Linked>
+                    <Linked>Current Events</Linked>
+                    <Linked>People</Linked>
+                    <Linked>Business &amp; Work</Linked>
 
                 </List>
-                <Link className={"all"}>View all</Link>
+                <Linked className={"all"}>View all</Linked>
             </Nav>
         </Container>
     )
@@ -142,7 +143,7 @@ const Menu = styled.div`
   flex: 3 1 0;
     
 `;
-const Link = styled.div`
+const Linked = styled(Link)`
     width: auto;
     padding: 20px;
     color: #666;

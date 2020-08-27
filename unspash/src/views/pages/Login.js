@@ -64,9 +64,10 @@ function Login (props) {
                         }}>Login</button>
                     </LoginButton>
                 </InputContainer>
-                <Join className={"join"}>Don't have an account?
-                    <Link to={"/join"}>Join</Link></Join>
             </LoginBody>
+            <LoginFooter className={"join"}>Don't have an account?
+                <Link>Join</Link>
+            </LoginFooter>
         </Container>
     )
 }
@@ -162,7 +163,7 @@ const LoginButton = styled.div`
     font-weight: 500;
   }
 `;
-const Join = styled.div`
+const LoginFooter = styled.div`
   text-align:center;
   margin-top: 30px;
   a {

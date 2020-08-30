@@ -21,44 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="493ecd4d-b8e4-4076-a34c-859ba6842918" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../start" beforeDir="false" afterPath="$PROJECT_DIR$/../start" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/unspash.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Helpers/History.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/app/redux.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/redux.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_reset.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/components/Main/Content.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/components/Main/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/components/Main/Popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/components/Main/PopupMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/components/Main/Post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/components/Main/Tag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/components/Main/Visual.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/Join.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/Main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/Page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unsplash" beforeDir="false" afterPath="$PROJECT_DIR$/../unsplash" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +81,7 @@
       <workItem from="1598236938289" duration="633000" />
       <workItem from="1598238312783" duration="15344000" />
       <workItem from="1598512126021" duration="3748000" />
+      <workItem from="1598596503166" duration="75000" />
     </task>
     <servers />
   </component>

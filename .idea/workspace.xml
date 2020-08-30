@@ -21,8 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="236fcbe0-d9a2-461e-a57e-35ca718b753a" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/start/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/hello/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/start" beforeDir="false" afterPath="$PROJECT_DIR$/start" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/start/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/components/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/start/src/components/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsplash" beforeDir="false" afterPath="$PROJECT_DIR$/unsplash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsplash/src/views/pages/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/unsplash/src/views/pages/Search.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -53,6 +61,7 @@
       <updated>1597652876039</updated>
       <workItem from="1597652877870" duration="145000" />
       <workItem from="1597653245490" duration="357000" />
+      <workItem from="1598793341865" duration="307000" />
     </task>
     <servers />
   </component>
@@ -69,5 +78,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

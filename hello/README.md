@@ -1,5 +1,3 @@
-[##_Image|kage@lRc47/btqG9AsVkcF/7BD69iY9NiGhL7i2hHOCnK/img.png|alignCenter|data-filename="react.png" data-origin-width="650" data-origin-height="300" data-ke-mobilestyle="widthContent"|||_##]
-
 # Hook
 
 Hook은 React 버전 16.8에 새로 추가되었습니다. Hook을 이용하여 Class를 작성할 필요 없이 상태 값과 여러 React의 기능을 사용할 수 있습니다.

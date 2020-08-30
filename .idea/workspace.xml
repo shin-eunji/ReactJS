@@ -21,10 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="236fcbe0-d9a2-461e-a57e-35ca718b753a" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/start/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/hello/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/start" beforeDir="false" afterPath="$PROJECT_DIR$/start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/start/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/start/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/start/src/components/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/start/src/components/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-app/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unspash/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unsplash" beforeDir="false" afterPath="$PROJECT_DIR$/unsplash" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unsplash/src/views/pages/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/unsplash/src/views/pages/Search.js" afterDir="false" />
     </list>
@@ -58,7 +61,7 @@
       <updated>1597652876039</updated>
       <workItem from="1597652877870" duration="145000" />
       <workItem from="1597653245490" duration="357000" />
-      <workItem from="1598793341865" duration="397000" />
+      <workItem from="1598793341865" duration="537000" />
     </task>
     <servers />
   </component>

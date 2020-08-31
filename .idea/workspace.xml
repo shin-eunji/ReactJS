@@ -20,10 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="236fcbe0-d9a2-461e-a57e-35ca718b753a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/todo-app/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-app/src/components/TodoInsert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-app/src/components/TodoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-app/src/components/TodoListItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-app/src/components/TodoTemplate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-app/src/scss/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-app/src/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hook" beforeDir="false" afterPath="$PROJECT_DIR$/hook" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-review/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/redux-review/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/todo-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/todo-app/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unsplash" beforeDir="false" afterPath="$PROJECT_DIR$/unsplash" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unsplash/src/views/pages/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/unsplash/src/views/pages/Search.js" afterDir="false" />
     </list>
@@ -33,7 +40,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/unsplash" />
   </component>
   <component name="ProjectId" id="1gDd0hgqBIwOwhJRJ1ug7irLAgS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -63,7 +70,7 @@
       <updated>1597652876039</updated>
       <workItem from="1597652877870" duration="145000" />
       <workItem from="1597653245490" duration="357000" />
-      <workItem from="1598793341865" duration="2031000" />
+      <workItem from="1598793341865" duration="3027000" />
     </task>
     <servers />
   </component>

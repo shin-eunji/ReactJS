@@ -1,10 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import './scss/style.scss'
-import {Provider} from 'redux'
 
-// import Counter from "./components/Counter";
-// import Todos from "./components/Todos";
 
 function App (props) {
 
@@ -12,9 +8,7 @@ function App (props) {
 
     return (
         <Container>
-            <Counter number={0}/>
-            <hr />
-            <Todos/>
+            App
         </Container>
     )
 }

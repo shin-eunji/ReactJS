@@ -1,9 +1,6 @@
 const initialState = {
     openSidebar: false,
-    popup: {
-        title: '',
-        description: ''
-    }
+    popup: false
 };
 
 const Action = {
@@ -25,7 +22,7 @@ const reducer = (state = initialState, action) => {
         case Action.Types.UPDATE_STATE: {
             return {
                 ...state,
-                ...action.props
+                ...action.payload
             }
         }
         default: return state;

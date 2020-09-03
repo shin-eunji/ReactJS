@@ -2,8 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import Sidebar from "./Sidebar";
 import { AiOutlineMenu } from "react-icons/ai";
-import { useDispatch } from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import { Action } from "../redux/app/redux";
+import {navigate} from "../Helpers/History";
+import {Link} from "react-router-dom";
 
 
 function Header (props) {
@@ -11,23 +13,25 @@ function Header (props) {
     const {} = props;
 
     const dispatch = useDispatch()
+    const {openSidebar} = useSelector(state => state.app)
 
     return (
         <Container>
             <Logo>Logo</Logo>
             <Nav>
-                <NavItem>Home</NavItem>
-                <NavItem>About</NavItem>
+                <NavItem to={'/'}>Home</NavItem>
+                <NavItem onClick={() => navigate('/user')}>About</NavItem>
                 <NavItem>Service</NavItem>
                 <NavItem>Contact</NavItem>
             </Nav>
             <ButtonMenu onClick={() => dispatch(Action.Creators.updateState({
-                openSidebar: true
+                openSidebar: !openSidebar
             }))}>
                 <AiOutlineMenu/>
             </ButtonMenu>
-            <Sidebar/>
-
+            {
+                openSidebar && <Sidebar openSidebar={openSidebar}/>
+            }
         </Container>
     )
 }
@@ -45,6 +49,7 @@ const Container = styled.div`
   border-bottom: 1px solid #eee;
   background: #fff;
   box-shadow: 0px 0px 5px 5px rgba(0,0,0,.1);
+  z-index: 1000;
 `
 const Logo = styled.div`
   color: #ff0000;
@@ -56,7 +61,7 @@ const Nav = styled.div`
   align-items:center;
   justify-content: space-between;
 `;
-const NavItem = styled.div`
+const NavItem = styled(Link)`
   cursor: pointer;
   padding: 10px;
   margin: 0 10px;
@@ -73,6 +78,7 @@ const ButtonMenu = styled.div`
   padding: 10px 20px;
   -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;
   cursor: pointer;
+  z-index: 10001;
   &:hover {
     background: #03e3af;
   }    

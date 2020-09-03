@@ -30,7 +30,8 @@ const Container = styled.div`
   box-shadow: 0px 0px 5px 10px rgba(0,0,0,.1);
   z-index: 1000;
   overflow-y: auto;
-  transform: translateX(110%);
+  transition: .5s;
+  transform: ${props => props.openSidebar ? 'none' : 'translateX(110%)' };
 `
 const Menu = styled.div`
   padding: 120px;    

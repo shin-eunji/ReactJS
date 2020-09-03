@@ -1,24 +1,27 @@
 import React from 'react';
 import styled from 'styled-components';
-import Header from "./components/Header";
 import {useDispatch, useSelector} from "react-redux";
+
+import Header from "./components/Header";
+import Visual from "./pages/Home/Visual";
+import Popup from "./pages/Popup";
 
 function App (props) {
 
     const {} = props;
 
     const app = useSelector(state => state.app)
-
     console.log("app", app);
 
     return (
         <Container>
             <Header/>
+            <Visual/>
+            <Popup/>
         </Container>
     )
 }
 
 const Container = styled.div`
-  height: 4000px;
 `
 export default App;

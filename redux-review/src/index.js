@@ -4,27 +4,17 @@ import App from './App';
 import { Provider } from 'react-redux'
 import store from "./redux/store";
 import './scss/style.scss'
-
-
-const state = store.getState();
-console.log(state);
-
-
-store.dispatch({
-    type: '@@APP/UPDATE_STAET',
-    props: {
-        name: 'SHIN'
-    }
-});
-
-const state2 = store.getState();
-console.log(state2);
-
+import { Router, Route } from 'react-router-dom'
+import { HISTORY } from "./Helpers/History";
 
 ReactDOM.render(
     <React.StrictMode>
         <Provider store={store}>
-            <App />
+            <Router history={HISTORY}>
+                <Route>
+                    <App />
+                </Route>
+            </Router>
         </Provider>
     </React.StrictMode>,
   document.getElementById('root')

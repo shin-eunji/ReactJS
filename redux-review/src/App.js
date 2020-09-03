@@ -1,12 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
+import Header from "./components/pages/Home/Header";
+import {connect} from "react-redux";
 
 function App (props) {
 
-    const {} = props;
+    const {
+        state = {}
+    } = props;
 
     return (
         <Container>
+            <Header/>
         </Container>
     )
 }
@@ -14,4 +19,11 @@ function App (props) {
 const Container = styled.div`
 
 `
-export default App;
+
+const mapStateToProps = state => ({
+    state
+})
+const mapDispatchToProps = dispatch => ({
+    dispatch
+})
+export default connect(mapStateToProps, mapDispatchToProps)(App);

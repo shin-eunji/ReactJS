@@ -6,3 +6,5 @@ export const reducers = combineReducers({
     app: appReducer,
     user: userReducer
 });
+
+export default reducers;

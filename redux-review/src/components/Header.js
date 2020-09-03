@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import Sidebar from "./Sidebar";
 import { AiOutlineMenu } from "react-icons/ai";
-import {useDispatch} from "react-redux";
-import {Action} from "../redux/app/redux";
+import { useDispatch } from "react-redux";
+import { Action } from "../redux/app/redux";
 
 
 function Header (props) {

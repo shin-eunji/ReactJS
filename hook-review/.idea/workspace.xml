@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c3516d-b926-4c61-8251-9f3f88efa65c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../redux-starter/src/redux/user/redux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redux-starter/src/redux/app/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redux-starter/src/redux/app/redux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redux-starter/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redux-starter/src/redux/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../start" beforeDir="false" afterPath="$PROJECT_DIR$/../start" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hook" beforeDir="false" afterPath="$PROJECT_DIR$/../hook" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unsplash" beforeDir="false" afterPath="$PROJECT_DIR$/../unsplash" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +66,7 @@
       <workItem from="1597998213780" duration="247000" />
       <workItem from="1598162859350" duration="4866000" />
       <workItem from="1598237764203" duration="8833000" />
+      <workItem from="1599043518140" duration="15000" />
     </task>
     <servers />
   </component>

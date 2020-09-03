@@ -20,17 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5bf9123-62e3-4bb3-b624-ce7e169f98b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/app/redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/user/redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hook" beforeDir="false" afterPath="$PROJECT_DIR$/../hook" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Detail/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Home/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Home/Sidebar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Home/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../unsplash" beforeDir="false" afterPath="$PROJECT_DIR$/../unsplash" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
       <updated>1598791799249</updated>
       <workItem from="1598791800614" duration="4506000" />
       <workItem from="1598860614170" duration="14445000" />
-      <workItem from="1599043535791" duration="9962000" />
+      <workItem from="1599043535791" duration="16914000" />
     </task>
     <servers />
   </component>
@@ -97,15 +97,20 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="175" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1598873108948" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1599104862213">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1599117310594">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1599104862213" />
-    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050/1680.23.1920.1057@0.0.1680.1050" timestamp="1599103850654" />
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1599117310594" />
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050/1680.23.1920.1057@0.0.1680.1050" timestamp="1599108520310" />
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.1027/1680.23.1920.1057@0.23.1680.1027" timestamp="1599107850790" />
     <state x="305" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598931496634">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="305" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1598931496634" />
+    <state x="100" y="100" width="833" height="850" key="dock-window-1" timestamp="1599107740415">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="833" height="850" key="dock-window-1/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1599107740414" />
     <state x="181" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1599103667049">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

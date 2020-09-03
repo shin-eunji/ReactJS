@@ -1,6 +1,6 @@
 const initialState = {
     openSidebar: false,
-    popup: false
+    popup: {}
 };
 
 const Action = {

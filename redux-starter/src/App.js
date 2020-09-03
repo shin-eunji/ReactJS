@@ -17,7 +17,7 @@ function App (props) {
     return (
         <Container>
             <Appbar/>
-
+            <Popup/>
             <Switch>
                 <Route path={"/"} component={Home} />
                 <Route path={"/user"} component={User} />

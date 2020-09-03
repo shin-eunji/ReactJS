@@ -17,7 +17,9 @@ function App (props) {
         <Container>
             <Header/>
             <Visual/>
-            <Popup/>
+            {
+                app.popup.title && <Popup/>
+            }
         </Container>
     )
 }

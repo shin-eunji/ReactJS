@@ -20,26 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5bf9123-62e3-4bb3-b624-ce7e169f98b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../test/.idea/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/components/Store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/components/layout/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/Contents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/main/Contents/Linked.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/main/Contents/MainNotice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/main/Contents/MainSearch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/main/Contents/MainUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/main/Contents/Searchlist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/main/Sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/main/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/redux/app/redux.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/redux/redux.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hook" beforeDir="false" afterPath="$PROJECT_DIR$/../hook" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Popup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Popup/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout.Styled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unsplash" beforeDir="false" afterPath="$PROJECT_DIR$/../unsplash" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +64,7 @@
       <workItem from="1598860614170" duration="14445000" />
       <workItem from="1599043535791" duration="24982000" />
       <workItem from="1599202256365" duration="1042000" />
-      <workItem from="1599203749071" duration="1355000" />
+      <workItem from="1599203749071" duration="1535000" />
     </task>
     <servers />
   </component>

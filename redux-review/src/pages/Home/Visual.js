@@ -16,7 +16,10 @@ function Visual (props) {
                 <Text>
                     <h1>Hello!</h1>
                     <button onClick={() => dispatch(Action.Creators.updateState({
-                        popup: true
+                        popup: {
+                            title: 'Lorem ipsum dolor sit amet.',
+                            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, suscipit.'
+                        }
                     }))}>팝업</button>
                 </Text>
             </StyledContentContainer>

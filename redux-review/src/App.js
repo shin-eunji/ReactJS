@@ -17,8 +17,14 @@ function App (props) {
         <Container>
             <Header/>
             <Visual/>
+            <Popup title={"Lorem ipsum dolor sit amet."}
+                   description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, cupiditate?"}
+            />
             {
-                app.popup.title && <Popup/>
+                app?.popup?.title &&
+                <Popup title={app.popup.title}
+                    description={app.popup.description}
+                />
             }
         </Container>
     )

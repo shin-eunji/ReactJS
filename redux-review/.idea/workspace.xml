@@ -20,10 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5bf9123-62e3-4bb3-b624-ce7e169f98b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../test/.idea/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/components/Store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/components/layout/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/Contents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/main/Contents/Linked.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/main/Contents/MainNotice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/main/Contents/MainSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/main/Contents/MainUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/main/Contents/Searchlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/main/Sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/components/pages/main/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/redux/app/redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/redux/redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hook" beforeDir="false" afterPath="$PROJECT_DIR$/../hook" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Visual.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Visual.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Popup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Popup/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unsplash" beforeDir="false" afterPath="$PROJECT_DIR$/../unsplash" afterDir="false" />
     </list>
@@ -64,7 +79,9 @@
       <updated>1598791799249</updated>
       <workItem from="1598791800614" duration="4506000" />
       <workItem from="1598860614170" duration="14445000" />
-      <workItem from="1599043535791" duration="23904000" />
+      <workItem from="1599043535791" duration="24982000" />
+      <workItem from="1599202256365" duration="1042000" />
+      <workItem from="1599203749071" duration="1355000" />
     </task>
     <servers />
   </component>
@@ -92,12 +109,12 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="175" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1598873108948" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1599185948505">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1599186282259">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1599122332777" />
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050/1680.23.1920.1057@0.0.1680.1050" timestamp="1599117703594" />
-    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1599185948505" />
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1599186282259" />
     <state width="500" height="445" key="SwitcherDM/0.23.1680.1027/1680.23.1920.1057@0.23.1680.1027" timestamp="1599118108151" />
     <state x="305" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598931496634">
       <screen x="0" y="0" width="1680" height="1050" />

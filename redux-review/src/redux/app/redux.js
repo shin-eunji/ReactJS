@@ -1,17 +1,12 @@
-import store from "../store";
-
 const initialState = {
     openSidebar: false,
-    popup: {
-        title: '',
-        description: ''
-    }
+    popup: false
 }
 
 
 const Action = {
     Types: {
-        UPDATE_STATE: 'updateState',
+        UPDATE_STATE: '@@APP/updateState',
         HANDLE_SIDEBAR: 'handleSidebar'
     },
 

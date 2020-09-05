@@ -6,27 +6,16 @@ import {Action} from "../../redux/app/redux";
 function Popup (props) {
 
     const {
-
+        title,
+        description
     } = props;
 
-    const { title, description } = useSelector(state => state.popup)
-
-    const dispatch = useDispatch()
-
-    const closePopup = () => {
-        dispatch(Action.Creators.updateState({
-            popup: {
-                title: 'fdafafafa',
-                description: 'fdafdaf'
-            }
-        }))
-    }
-
     return (
-        <Container onClick={closePopup}>
+        <Container>
             <PopupBox>
                 <h2>{title}</h2>
                 <p>{description}</p>
+                <Close>닫기</Close>
             </PopupBox>
         </Container>
     )
@@ -60,5 +49,8 @@ const PopupBox = styled.div`
     font-size: 16px;
     font-weight: 500;
   }
+`;
+const Close = styled.div`
+    cursor: pointer;
 `;
 export default Popup;

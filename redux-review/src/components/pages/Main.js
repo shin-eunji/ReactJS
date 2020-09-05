@@ -12,7 +12,6 @@ function Main (props) {
         <Container>
             <Header/>
             <Visual/>
-            <Sidebar/>
         </Container>
     )
 }

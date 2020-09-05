@@ -7,15 +7,14 @@ import Sidebar from "./Sidebar";
 
 function Header (props) {
 
-    const {} = props;
+    const {
+    } = props;
 
     const dispatch = useDispatch()
-    const {openSidebar} = useSelector(state => state.app)
+    const { openSidebar } = useSelector(state => state.app)
 
     const handleSidebar = () => {
-        dispatch(Action.Creators.handleSidebar({
-            openSidebar: true
-        }))
+        dispatch(Action.Creators.handleSidebar(!openSidebar))
     }
 
     return (
@@ -34,7 +33,7 @@ function Header (props) {
             <ButtonMenu onClick={handleSidebar}>메뉴</ButtonMenu>
             {
                 openSidebar &&
-                <Sidebar openSidebar={openSidebar}/>
+                <Sidebar openSidebar={handleSidebar}/>
             }
         </Container>
     )

@@ -1,17 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import {Action} from "../../redux/app/redux";
 import Popup from "./Popup";
+import Sidebar from "./Sidebar";
 
 function Visual (props) {
 
     const {
-        popup
+        updateState,
     } = props;
 
-    const dispatch = useDispatch;
-    const handlePopup = () => {
+    const dispatch = useDispatch();
+    const popup = useSelector(state => state.app)
+
+    const openPopup = () => {
         dispatch(Action.Creators.updateState({
             popup: {
                 title: 'Lorem ipsum dolor.',
@@ -26,7 +29,11 @@ function Visual (props) {
                 <h2>Lorem ipsum.</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, repudiandae.</p>
             </Text>
-            <ButtonPopup onClick={handlePopup}>팝업</ButtonPopup>
+            <ButtonPopup onClick={openPopup}>팝업</ButtonPopup>
+            {
+                popup &&
+                    <Popup popup={openPopup}/>
+            }
         </Container>
     )
 }

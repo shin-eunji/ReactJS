@@ -8,13 +8,13 @@ import {Action} from "../../redux/app/redux";
 function Sidebar (props) {
 
     const {
+        openSidebar
     } = props;
 
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
+
     const handleClose = () => {
-        dispatch(Action.Creators.handleSidebar({
-            openSidebar: false
-        }))
+        dispatch(Action.Creators.handleSidebar(!openSidebar))
     }
 
 
@@ -38,7 +38,7 @@ const Container = styled.div`
   top: 0;
   left: 0;
   background: #fff;
-  
+  z-index: 1000;
 `
 const Menu = styled.div`
     

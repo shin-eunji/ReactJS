@@ -1,8 +1,10 @@
+import store from "../store";
+
 const initialState = {
     openSidebar: false,
     popup: {
         title: '',
-        description: ''1
+        description: ''
     }
 }
 

@@ -20,26 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5bf9123-62e3-4bb3-b624-ce7e169f98b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actionCreator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/app/saga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hook" beforeDir="false" afterPath="$PROJECT_DIR$/../hook" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Visual.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Visual.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/app/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/app/redux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/redux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/saga.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unsplash" beforeDir="false" afterPath="$PROJECT_DIR$/../unsplash" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +72,7 @@
       <workItem from="1598860614170" duration="14445000" />
       <workItem from="1599043535791" duration="24982000" />
       <workItem from="1599202256365" duration="1042000" />
-      <workItem from="1599203749071" duration="20969000" />
+      <workItem from="1599203749071" duration="21043000" />
     </task>
     <servers />
   </component>

@@ -7,28 +7,14 @@ import {Action} from "../redux/redux";
 function Docs (props) {
 
     const {
-        code,
         title,
         description
     } = props;
 
-    const dispatch = useDispatch()
-    const docs = useSelector(state => state.docs)
 
-    const on = docs.includes(code);
 
     return (
         <Container>
-            <Switch onClick={() => {
-                dispatch(Action.Creators.updateState({
-                    docs: [
-                        ...docs,
-                        code
-                    ]
-                }))
-            }}
-                on={on}
-            />
             <h2>{title}</h2>
             <p>{description}</p>
         </Container>

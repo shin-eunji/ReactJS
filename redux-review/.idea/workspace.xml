@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a5bf9123-62e3-4bb3-b624-ce7e169f98b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../hook" beforeDir="false" afterPath="$PROJECT_DIR$/../hook" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/user/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/saga.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unsplash" beforeDir="false" afterPath="$PROJECT_DIR$/../unsplash" afterDir="false" />
     </list>
@@ -72,7 +73,7 @@
       <workItem from="1598860614170" duration="14445000" />
       <workItem from="1599043535791" duration="24982000" />
       <workItem from="1599202256365" duration="1042000" />
-      <workItem from="1599203749071" duration="21043000" />
+      <workItem from="1599203749071" duration="21408000" />
     </task>
     <servers />
   </component>

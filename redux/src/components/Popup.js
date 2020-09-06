@@ -1,22 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
 import {useDispatch, useSelector} from "react-redux";
-import {Action} from "../redux/redux";
+import {appActions} from "../redux/actionCreators";
 
 function Popup () {
 
     const {title, description} = useSelector(state => state.popup)
 
 
-    const dispatch = useDispatch()
-
     const closePopup = () => {
-        dispatch(Action.Creators.updateState( {
+        appActions.updateState({
             popup: {
                 title: '',
                 description: ''
             }
-        }))
+        })
     }
 
     return (

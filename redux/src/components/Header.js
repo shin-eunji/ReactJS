@@ -2,26 +2,27 @@ import React from 'react';
 import styled from 'styled-components';
 import {BiMenu} from 'react-icons/bi'
 import {connect} from "react-redux";
-import {Action} from "../redux/redux";
+import {appActions} from "../redux/actionCreators";
 
 function Header (props) {
 
     const {
-        openSidebar,
-        dispatch
+        sidebar,
     } = props;
 
     const openNotice = () => {
-        dispatch(Action.Creators.updateState({
+        appActions.updateState({
             popup: {
-                title: '공지사항',
-                description: 'ㄹ머ㅣ라ㅣㅁ얼마ㅓ라머ㅏ라'
+                title: '',
+                description: ''
             }
-        }))
+        })
     }
 
     const handleSidebar = () => {
-        dispatch(Action.Creators.handleSidebar(!openSidebar))
+      appActions.updateState({
+          Sidebar: !sidebar
+      })
     }
 
     return (

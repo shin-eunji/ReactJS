@@ -6,7 +6,6 @@ export default function* () {
     yield all([
         takeLatest(Action.Types.GET_USERS, function* () {
             const result = yield call(API.getUsers);
-            console.log("", result);
             if (result.data) {
                 yield put(Action.Creators.updateState({
                     users: result.data

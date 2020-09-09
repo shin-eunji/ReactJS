@@ -32,7 +32,6 @@ function App () {
         </Container>
     )
 }
-
 const Container = styled.div`
 
 `

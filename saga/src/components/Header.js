@@ -13,12 +13,19 @@ function Header (props) {
 
     const dispatch = useDispatch()
 
+    const {popup} = useSelector(state => state.app)
     const {openSidebar} = useSelector(state => state.app)
 
-    const openMenu = () => {
-        dispatch(Action.Creators.updateState(
-            {openSidebar: !openSidebar }
-        ))
+    const openPopup = () => {
+        dispatch(Action.Creators.updateState({
+            popup: !popup
+        }))
+    }
+
+    const handleSidebar = () => {
+        dispatch(Action.Creators.updateState({
+            openSidebar: !openSidebar
+        }))
     }
 
     return (
@@ -42,10 +49,14 @@ function Header (props) {
                     <Menu>
                         <MenuItem>Topics</MenuItem>
                         <MenuItem>Explore</MenuItem>
-                        <MenuItem onClick={openMenu}>
+                        <MenuItem onClick={openPopup}>
                             <FiMoreHorizontal className={"more"}/>
                         </MenuItem>
-                        <MenuItem className={"btn"}>Submit a photo</MenuItem>
+                        {
+                            popup &&
+                            <PopupBox popup={popup}/>
+                        }
+                        <MenuItem onClick={handleSidebar} className={"btn"}>Submit a photo</MenuItem>
                         <Info>
                             <MenuItem to={"/login"} className={"login"}>Login</MenuItem>
                             <MenuItem className={"btn_mint"}>Join Free</MenuItem>
@@ -92,9 +103,11 @@ function Header (props) {
                     <Content className={"nav_last"}>View all</Content>
                 </Nav>
             </Gnb>
+
             {
                 openSidebar &&
                 <Sidebar openSidebar={openSidebar}/>
+
             }
         </Container>
     )
@@ -254,7 +267,7 @@ const Content = styled.div`
     color: #777;
     font-size: 16px;
     font-weight: 600;
-    padding: 20px 30px 20px 0;
+    padding: 20px;
     cursor: pointer;
     white-space: nowrap;
     &:hover {
@@ -265,5 +278,13 @@ const Content = styled.div`
       font-weight: 400;
       
     }
+`;
+const PopupBox = styled.div`
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    width: 400px;
+    height: 500px;
+    background: #000;
 `;
 export default Header;

@@ -4,7 +4,8 @@ const initialState = {
 
 const Action = {
     Types: {
-        UPDATE_STATE: 'USER/UPDATE_STATE'
+        UPDATE_STATE: 'USER/UPDATE_STATE',
+        GET_USERS: 'USER/GET_USERS'
     },
 
     Creators: {
@@ -12,6 +13,9 @@ const Action = {
             type: Action.Types.UPDATE_STATE,
             payload
 
+        }),
+        getUsers: () => ({
+            type: Action.Types.GET_USERS
         })
     }
 }

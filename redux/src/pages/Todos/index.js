@@ -11,6 +11,23 @@ function Todos (props) {
     const {} = props;
 
     const {list} = useSelector(state => state.todos)
+    //
+    // const getTodos = async () => {
+    //     const result1 = await axios.get("http://jsonplaceholder.typicode.com/todos")
+    //     console.log("reuslt", reuslt1);
+    //     return result1.data
+    // }
+    //
+    // getTodos()
+    //
+    //
+    // const result = new Promise((resolve, reject) => {
+    //     axios.get("http://jsonplaceholder.typicode.com/todos").then((res) => {
+    //         resolve(res)
+    //     }).catch(err => {
+    //         resolve(err)
+    //     })
+    // })
 
     const  getTodos = async () => {
         const result = await axios.get("http://jsonplaceholder.typicode.com/todos");

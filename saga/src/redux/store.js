@@ -5,10 +5,10 @@ import sagas from './sagas'
 
 const sagaMiddleware = createSagaMiddleware();
 
-sagaMiddleware.run(sagas)
 
 
 const store = createStore(reducers, applyMiddleware(sagaMiddleware));
 
+sagaMiddleware.run(sagas)
 
 export default store;

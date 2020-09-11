@@ -1,32 +1,27 @@
 
 const express = require('express');
 const cors = require('cors')
+const mongoose = require('mongoose')
 
-const app = express();
+const app =express
 
-app.use(cors())
+app.use(cors());
+app.use(express.json())
+app.use(express.urlencoded({
+    extended: true
+}))
 
 app.get('/', (req, res) => {
-    const name = req.query.name
     console.log("req.query", req.query);
-    res.json({
-        name,
-        job: 'Front-End'
-    })
-
-})
-
-app.get('/user/:id', (req, res) => {
-    console.log("req.query", req.params);
     const name = req.query.name
-    const userId = req.params.id
+
     res.json({
         name,
-        job: 'Front-End',
-        userId
+        job: 'front'
     })
-
 })
+
+
 
 
 app.listen(8080, function() {

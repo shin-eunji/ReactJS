@@ -1,11 +1,12 @@
 const initialState = {
-    login: false
+    login: false,
+    user: []
 }
 
 const Action = {
     Types: {
         UPDATE_STATE: 'USER/UPDATE_STATE',
-        GET_USERS: 'USER/GET_USERS'
+        GET_USERS: 'GET_USERS'
     },
 
     Creators: {
@@ -17,6 +18,7 @@ const Action = {
         getUsers: () => ({
             type: Action.Types.GET_USERS
         })
+
     }
 }
 

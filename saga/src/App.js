@@ -1,8 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import Main from "./pages/Main";
 import './scss/styled.scss'
+
 import {useSelector} from "react-redux";
+import {Switch, Route} from 'react-router-dom'
+
+import Main from "./pages/Main";
+import User from "./pages/User";
 
 function App (props) {
 
@@ -13,7 +17,10 @@ function App (props) {
 
     return (
         <Container>
-            <Main/>
+            <Switch>
+                <Route exact path={'/'} component={Main}/>
+                <Route exact path={'/user'} component={User}/>
+            </Switch>
         </Container>
     )
 }

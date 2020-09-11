@@ -1,10 +1,11 @@
-import {all, call, put} from 'redux-saga/effects'
-import appSaga from './app/saga'
-import userSaga from './user/saga'
+import {all} from 'redux-saga/effects'
+import AppSaga from './app/saga'
+import UserSaga from './user/saga'
+
 
 export default function*() {
     yield all([
-        appSaga,
-        userSaga
+        AppSaga(),
+        UserSaga()
     ])
 }

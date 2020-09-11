@@ -611,7 +611,7 @@ const posts = [
         "title": "at nam consequatur ea labore ea harum",
         "body": "cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut"
     }
-]
+].reverse()
 
 app.get('/', (req, res) => {
     const query = req.query;
@@ -622,7 +622,7 @@ app.get('/', (req, res) => {
 app.get('/post', (req, res) => {
     const query = req.query;
     const page = Number(query.page) || 1;
-
+    console.log("page", page);
     res.json(posts)
 })
 
@@ -631,15 +631,31 @@ app.get('/post/:id', (req, res) => {
 
     const post = posts.find((item) => item.id === Number(id))
 
+
     res.json(post)
 })
 
 app.post('/post', (req, res) => {
-    const body = req.body
+    const {title, body, userId} = req.body
     
     console.log("body", body);
+
+    posts.unshift({
+        userId,
+        id: posts.length + 1,
+        title,
+        body
+    })
+
+    res.json(posts);
 })
 
+app.delete('/post/:id', (req, res) => {
+    const id = req.params.id;
+    const nextPosts = posts.filter((item) => item.id !== Number(id));
+
+    res.json(nextPosts);
+})
 
 const PORT = process.env.PORT;
 

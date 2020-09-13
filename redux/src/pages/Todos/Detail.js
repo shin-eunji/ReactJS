@@ -1,20 +1,17 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import styled from 'styled-components';
-import {appActions} from "../../redux/actionCreators";
 
-function Home (props) {
+function Detail (props) {
 
     const {} = props;
 
-
-
     return (
         <Container>
-            Home
+            Detail
         </Container>
     )
 }
 
 const Container = styled.div`
 `
-export default Home;
+export default Detail;

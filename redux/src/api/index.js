@@ -1,8 +1,12 @@
-import axios from "axios";
+
+import Fetch from "../lib/Fetch";
 
 const API = {
-    getTodos: () => axios.get("http://jsonplaceholder.typicode.com/todos"),
-    getUser: (id) => axios.get(`http://localhost:8080/user/${id}`)
+    getTodos: () => Fetch.fetchJsonGet('/todo'),
+    getTodoByid: (id) =>Fetch.fetchJsonGet(`/todo/${id}`),
+    addTodo: (data) => Fetch.fetchJsonPost(`/todo`, data),
+    updateTodo: (id, data) => Fetch.fetchJsonPut(`/todo/${id}`, data),
+    deleteTodo: (id) => Fetch.fetchJsonPut(`/todo/${id}`),
 }
 
 export default API

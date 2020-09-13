@@ -6,6 +6,7 @@ export const Action = {
     Types: {
         UPDATE_STATE: '@TODOS/UPDATE_STATE',
         GET_TODOS: 'GET_TODOS',
+        ADD_TODO: 'ADD_TODO'
     },
 
     Creators: {
@@ -15,6 +16,10 @@ export const Action = {
         }),
         getTodos: () => ({
             type: Action.Types.GET_TODOS
+        }),
+        addTodo: (payload) => ({
+            type: Action.Types.ADD_TODO,
+            payload
         })
     }
 }

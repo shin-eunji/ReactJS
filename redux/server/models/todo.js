@@ -4,7 +4,7 @@ const schema = new mongoose.Schema({
     title: 'string',
     description: 'string',
     isComplated: {
-        defalut: false,
+        default: false,
         type: Boolean
     }
 });

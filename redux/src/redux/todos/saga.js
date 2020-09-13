@@ -1,6 +1,7 @@
 import {all, takeLatest, call, put} from "redux-saga/effects";
 import {Action} from "./redux";
 import API from '../../api'
+import {navigate} from "../../lib/History";
 
 
 
@@ -11,22 +12,31 @@ export default function* () {
                 isLoading: true
             }))
 
-            try {
-                const result = yield call(API.getTodos)
-                if(result.data) {
-                    yield put(Action.Creators.updateState({
-                        list: result.data
-                    }))
-                }
-            } catch (e) {
-            } finally {
+            const result = yield call(API.getTodos)
+            if(result) {
                 yield put(Action.Creators.updateState({
-                    isLoading: false
+                    list: result
                 }))
             }
 
-            
+            yield put(Action.Creators.updateState({
+                isLoading: false
+            }))
+        }),
+
+        takeLatest(Action.Types.ADD_TODO, function*({payload}) {
+            const result = yield call(API.addTodo, payload);
+            console.log("[saga] add todo", payload);
+            console.log("result", result);
+
+            if (result) {
+                navigate('/todos')
+            } else {
+
+            }
+
         })
+
     ])
 }
 

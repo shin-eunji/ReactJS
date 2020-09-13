@@ -1,31 +1,86 @@
 const express = require('express');
 const router = express.Router();
+const Todo = require('../models/todo')
 
-router.get('/', (req, res) => {
-    res.json({title: 'lfjafkladjfklajfklsjf'})
+
+
+
+router.get('/', async (req, res) => {
+    const todos = await Todo.find({});
+
+    res.json(todos)
 })
 
+router.get('/:id', async (req, res) => {
 
-app.get('/', (req, res) => {
-    const name = req.query.name
-    console.log("req.query", req.query);
-    res.json({
-        name,
-        job: 'Front-End'
+    const id = req.params.id;
+    const todo = await Todo.find({
+        _id: id
+    });
+
+    res.json(todo)
+})
+
+router.post('/', async(req, res) => {
+    const {title, description, isCompleted} = req.body;
+
+    console.log("req.body", req.body);
+
+    const todo = new Todo({
+        title,
+        description,
+        isCompleted
     })
 
+
+    const result = await todo.save();
+
+    res.json(result)
+});
+
+
+router.put('/:id', async (req, res) => {
+    const id = req.params.id;
+    const {
+        title,
+        description,
+        isCompleted
+    } = req.body;
+
+    const data = {
+        title,
+        description,
+        isCompleted
+    }
+
+
+    const result = await Todo.updateOne({
+        _id: id,
+    }, data)
+
+
+    res.json(result)
+
 })
 
-app.get('/user/:id', (req, res) => {
-    console.log("req.query", req.params);
-    const name = req.query.name
-    const userId = req.params.id
-    res.json({
-        name,
-        job: 'Front-End',
-        userId
+router.delete('/:id', async (req, res) => {
+    const id = req.params.id;
+    const result = await Todo.deleteOne({
+        _id: id
     })
 
+    res.json(result)
 })
+
+router.delete('/all', async (req, res) => {
+    const id = req.params.id;
+    const result = await Todo.deleteMany({ })
+
+    res.json(result)
+})
+
+
+
+
 
 module.exports = router;

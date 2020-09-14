@@ -19,31 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084709aa-d9a3-40ef-8c25-86a03e38cb2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../redux/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redux/server/controllers/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redux/src/lib/Fetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redux/src/lib/History.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redux/src/pages/Todos/Detail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redux/src/pages/Todos/Item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redux/src/pages/Todos/List.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redux/src/pages/Todos/Modify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redux/src/pages/Todos/Write.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redux/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../redux/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redux/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redux/server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redux/server/controllers/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redux/server/controllers/todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redux/server/models/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redux/server/models/todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redux/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redux/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redux/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redux/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redux/src/pages/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redux/src/pages/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redux/src/pages/Todos/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redux/src/pages/Todos/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redux/src/redux/app/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redux/src/redux/app/saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redux/src/redux/todos/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redux/src/redux/todos/redux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redux/src/redux/todos/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redux/src/redux/todos/saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redux/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../redux/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="084709aa-d9a3-40ef-8c25-86a03e38cb2e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

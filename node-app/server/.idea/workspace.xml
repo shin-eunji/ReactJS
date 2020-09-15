@@ -21,7 +21,26 @@
   <component name="ChangeListManager">
     <list default="true" id="2079c8b1-f7b9-4d45-b2ec-4842ef0a3a1b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/.idea/todo-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo-app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/src/components/TodoInsert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/src/components/TodoList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/src/components/TodoListItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/src/components/TodoTemplate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/src/scss/_reset.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/src/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo-app/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +57,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -61,7 +81,7 @@
       <workItem from="1600137593873" duration="482000" />
       <workItem from="1600140707769" duration="225000" />
       <workItem from="1600140940018" duration="2072000" />
-      <workItem from="1600143798711" duration="2300000" />
+      <workItem from="1600143798711" duration="2816000" />
     </task>
     <servers />
   </component>

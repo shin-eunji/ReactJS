@@ -1,6 +1,17 @@
 const express = require('express');
 const dotenv = require('dotenv');
 
+dotenv.config()
+
+
+
+const app = express();
+
+
+
+app.use(express.json({ limit: "10mb" }));
+app.use(express.urlencoded({ extended: true }))
+
 
 const users = [
     {
@@ -236,26 +247,47 @@ const users = [
 ]
 
 
-dotenv.config()
-const app = express();
-
 app.get('/user', (req, res) => {
 
-    res.json(users)
+    const query = req.query;
+    const page = Number(query.page) || 1;
 
+    res.json(users)
 })
 
 app.get('/user/:id', (req, res) => {
     const id = req.params.id;
-
-    const user = users.find((item) => item.id === id)
+    const user = users.find((item) => item.id === Number(id))
 
     res.json(user);
-
 })
 
-app.post('/user', () => {
+app.post('/user', (req, res) => {
+    const {
+        id,
+        name,
+        username,
+        email
+    } = req.body
 
+    users.unshift({
+        id: users.length + 1,
+        name,
+        username,
+        email
+    })
+
+    users.reverse();
+
+    res.json(users);
+})
+
+
+app.delete('/user/:id',(req, res) => {
+    const id = req.params.id;
+    const delUsers = users.filter((item) => item.id !== Number(id))
+
+    res.json(delUsers)
 })
 
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Header from "../../components/Header";
 
 function Todos (props) {
 
@@ -7,7 +8,7 @@ function Todos (props) {
 
     return (
         <Container>
-            Todos
+            <Header/>
         </Container>
     )
 }

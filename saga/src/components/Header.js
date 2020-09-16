@@ -5,27 +5,26 @@ import Search from "./Search";
 
 import {FiMoreHorizontal} from 'react-icons/fi';
 import Sidebar from "./Sidebar";
-import {useDispatch, useSelector} from "react-redux";
-import {Action} from "../redux/app/redux";
+import {useSelector} from "react-redux";
+import {appActions} from "../redux/actionCreators";
 function Header (props) {
 
     const {} = props;
 
-    const dispatch = useDispatch()
 
     const {popup} = useSelector(state => state.app)
     const {openSidebar} = useSelector(state => state.app)
 
     const openPopup = () => {
-        dispatch(Action.Creators.updateState({
+        appActions.updateState({
             popup: !popup
-        }))
+        })
     }
 
     const handleSidebar = () => {
-        dispatch(Action.Creators.updateState({
+        appActions.updateState({
             openSidebar: !openSidebar
-        }))
+        })
     }
 
     return (

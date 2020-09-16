@@ -4,9 +4,26 @@ import styled from 'styled-components';
 import {AiOutlineMenu} from 'react-icons/ai'
 import {Link} from "react-router-dom";
 
-function Header (props) {
+import {appActions} from "../redux/actionCreators";
+import Sidebar from "./Sidebar";
+import {useSelector} from "react-redux";
+import Login from "./Login";
 
-    const {} = props;
+function Header () {
+
+    const {openSidebar} = useSelector(state => state.app);
+    const {PopupSidebar} = useSelector(state => state.app);
+
+    const handleSidebar = () => {
+        appActions.updateState({
+            openSidebar: true
+        })
+    }
+    const handlePopup = () => {
+        appActions.updateState({
+            PopupSidebar: !PopupSidebar
+        })
+    }
 
     return (
         <Container>
@@ -20,9 +37,22 @@ function Header (props) {
                 <NavItem to={'/'}>Home</NavItem>
                 <NavItem to={'/todo'}>Todo</NavItem>
             </Nav>
-            <ButtonMenu>
+            <ButtonLogin onClick={handlePopup}>Login</ButtonLogin>
+            <ButtonMenu onClick={handleSidebar}>
                 <AiOutlineMenu/>
             </ButtonMenu>
+
+
+            {
+                openSidebar &&
+                <Sidebar openSidebar={openSidebar}/>
+
+            }
+
+            {
+                PopupSidebar &&
+                    <Login PopupSidebar={PopupSidebar}/>
+            }
         </Container>
     )
 }
@@ -56,5 +86,14 @@ const ButtonMenu = styled.div`
   font-weight:bold;
   color: #333;
   
+`;
+const ButtonLogin = styled.div`
+  background: #13ff00;
+  color: #fff;
+  font-size: 18px;
+  font-weight:bold;
+  text-align:center;
+  padding: 10px 30px;
+  cursor: pointer;
 `;
 export default Header;

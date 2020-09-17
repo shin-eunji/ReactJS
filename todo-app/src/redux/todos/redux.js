@@ -1,5 +1,5 @@
 const initalState = {
-    Sidebar: false
+    list: []
 }
 
 export const Action = {

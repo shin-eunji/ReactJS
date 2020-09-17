@@ -20,27 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="931913b6-1ce7-4206-b83b-6f9dc9f07cba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../saga/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Helper/History.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actionCreators.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../node-app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../saga/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../saga/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Todos/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Todos/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/app/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/app/redux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/app/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/app/saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/sagas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/todos/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/todos/redux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/todos/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/todos/saga.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600146956438</updated>
-      <workItem from="1600146957849" duration="6669000" />
+      <workItem from="1600146957849" duration="9551000" />
     </task>
     <servers />
   </component>
@@ -108,9 +93,13 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="153" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600147002750" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1600233245024">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1600235891630">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1600233245024" />
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1600235891630" />
+    <state x="80" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1600235227434">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="80" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1600235227434" />
   </component>
 </project>

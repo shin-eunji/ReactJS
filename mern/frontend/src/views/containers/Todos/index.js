@@ -15,10 +15,14 @@ function TodosContainer (props) {
             <List data={list}
                 render={(item, index) => <Item key={index} {...item} />}
             />
+            <AddTodo onClick={() => Navigator('/todos/wirte')}>추가하기</AddTodo>
         </Container>
     )
 }
 
 const Container = styled.div`
 `
+const AddTodo = styled.div`
+    
+`;
 export default TodosContainer;

@@ -12,7 +12,7 @@ function Routes (props) {
         <Container>
             <Switch>
                 <Route exact path={'/'} component={Home} />
-                <Route exact path={'/todos'} component={Todos} />
+                <Route path={'/todos'} component={Todos} />
                 <Redirect from={'/'} to={'/home'} />
             </Switch>
         </Container>

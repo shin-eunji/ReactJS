@@ -4,13 +4,17 @@ const initalState = {
 
 const Action = {
     Types: {
-        UPDATE_STATE: 'TODOS/UPDATE_STATE'
+        UPDATE_STATE: 'APP/UPDATE_STATE',
+        GET_TODOS: 'GET_TODOS'
     },
 
     Creators: {
         updateState: (payload) => ({
             type: Action.Types.UPDATE_STATE,
             payload
+        }),
+        getTodos: () => ({
+            type: Action.Types.GET_TODOS
         })
     }
 }

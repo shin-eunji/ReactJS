@@ -9,8 +9,9 @@ const FetchConsts = {
     DELETE: 'delete',
 }
 
+console.log("process.env.REACT_APP_API_URL", process.env.REACT_APP_API_URL);
 const axiosInstance = axios.create({
-    baseURL: process.env.REACT_APP_API_URL,
+    baseURL: "http://localhost:8080",
     timeout: 12000,
     headers: {
         "Context-Type": "application/json",
@@ -43,34 +44,22 @@ const request = async (method, url, data) => {
 }
 
 const Fetch = {
-    fetchJsonGet: (url, data) => {
-        return request(FetchConsts.GET, url, {params: data})
+    jsonGet: (url, data) => {
+        return request(FetchConsts.GET, url)
     },
 
-    fetchJsonPost: (url, data) => {
+    jsonPost: (url, data) => {
         return request(FetchConsts.POST, url, data)
     },
 
-    fetchJsonUpdate: (url, data) => {
-        return request(FetchConsts.PUT, url, data )
+    jsonUpdate: (url, data) => {
+        return request(FetchConsts.PUT, url, data)
     },
 
-    fetchJsonDelete: (url) => {
+    jsonDelete: (url) => {
         return request(FetchConsts.DELETE, url)
     },
 }
 
 
 export default Fetch;
-
-
-
-
-
-
-
-
-
-
-
-

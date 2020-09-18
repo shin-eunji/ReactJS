@@ -1,13 +1,19 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import styled from 'styled-components';
+import {todosActions} from "../../../redux/actionCreators";
+import TodosContainer from "../../containers/Todos";
 
 function List (props) {
 
     const {} = props;
 
+    useEffect(() => {
+        todosActions.getTodos()
+    }, [])
+
     return (
         <Container>
-            List
+            <TodosContainer/>
         </Container>
     )
 }

@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Route, Switch} from "react-router-dom";
+import {Route, Switch, Redirect} from "react-router-dom";
+import Home from "./views/pages/Home";
+import Todos from "./views/pages/Todos";
 
 function Routes (props) {
 
@@ -9,7 +11,9 @@ function Routes (props) {
     return (
         <Container>
             <Switch>
-                <Route exact path={'/'} component={}></Route>
+                <Route exact path={'/'} component={Home} />
+                <Route exact path={'/todos'} component={Todos} />
+                <Redirect from={'/'} to={'/home'} />
             </Switch>
         </Container>
     )

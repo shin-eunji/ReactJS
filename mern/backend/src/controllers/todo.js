@@ -12,6 +12,13 @@ router.get('/', async (req, res) => {
     res.json(todos)
 })
 
+router.get('/:id', async (req, res) => {
+    const id = req.params.id;
+
+    const todo = await Todo.find({_id: id});
+    res.json(todo)
+})
+
 router.post('/', async (req, res) => {
     const { title, body } = req.body;
 
@@ -19,6 +26,23 @@ router.post('/', async (req, res) => {
     const result = await todo.save()
 
     res.json(result)
+})
+
+router.put('/:id', async (req, res) => {
+    const id = req.params.id;
+    const {title, body} = req.body;
+
+    const result = await Todo.updateOne({_id: id}, {title, body})
+
+    res.json(result)
+})
+
+router.delete('/:id', async (req, res) => {
+    const id = req.params.id;
+
+    const todo = await Todo.deleteOne({_id: id})
+
+    res.json(todo)
 })
 
 

@@ -20,13 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc3d43f0-4a09-4e2e-b142-86acef70dbbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../frontend/src/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Todos/Form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/api/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/lib/Fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/lib/Fetch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/todos/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/redux/todos/redux.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/lib/History.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/lib/History.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/redux/sagas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/redux/todos/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/redux/todos/saga.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/views/containers/Todos/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/containers/Todos/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/List.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Write.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Write.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +80,7 @@
       <updated>1600316703514</updated>
       <workItem from="1600316705293" duration="2004000" />
       <workItem from="1600321088892" duration="7484000" />
-      <workItem from="1600442470540" duration="1095000" />
+      <workItem from="1600442470540" duration="1581000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Route, Switch, Redirect} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 import List from "./List";
 import Write from "./Write";
 import Detail from "./Detail";
@@ -17,7 +17,6 @@ function Todos (props) {
                 <Route path={'/todos/detail:id'} component={Detail} />
                 <Route path={'/todos/write'} component={Write} />
                 <Route path={'/todos/update:id'} component={Update} />
-                <Redirect/>
             </Switch>
         </Container>
     )

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Form from "../../components/Todos/Form";
 
 function Write (props) {
 
@@ -7,7 +8,7 @@ function Write (props) {
 
     return (
         <Container>
-            Write
+            <Form/>
         </Container>
     )
 }

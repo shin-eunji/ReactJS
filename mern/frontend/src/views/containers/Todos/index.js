@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import List from "../../components/Todos/List";
 import Item from "../../components/Todos/Item";
 import {useSelector} from "react-redux";
+import {navigate} from "../../../lib/History";
 
 function TodosContainer (props) {
 
@@ -15,7 +16,7 @@ function TodosContainer (props) {
             <List data={list}
                 render={(item, index) => <Item key={index} {...item} />}
             />
-            <AddTodo onClick={() => Navigator('/todos/wirte')}>추가하기</AddTodo>
+            <AddTodo onClick={() => navigate('/todos/wirte')}>추가하기</AddTodo>
         </Container>
     )
 }

@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {Navigate} from './History';
+import {navigate} from './History';
 
 
 const FetchConsts = {
@@ -37,29 +37,29 @@ const request = async (method, url, data) => {
         if(e.response) {
             if(e.response.status === 404) {
                 console.log("로그인이 만료되었습니다. 로그인으로 이동합니다.");
-                Navigate('/sign/signin')
+                navigate('/sign/signin')
             }
         }
     }
 }
 
-const Fetch = {
-    jsonGet: (url, data) => {
-        return request(FetchConsts.GET, url)
+const Fetchjson = {
+    get: (url, data) => {
+        return request(FetchConsts.GET, url, {params : data})
     },
 
-    jsonPost: (url, data) => {
+    post: (url, data) => {
         return request(FetchConsts.POST, url, data)
     },
 
-    jsonUpdate: (url, data) => {
+    update: (url, data) => {
         return request(FetchConsts.PUT, url, data)
     },
 
-    jsonDelete: (url) => {
+    delete: (url) => {
         return request(FetchConsts.DELETE, url)
     },
 }
 
 
-export default Fetch;
+export default Fetchjson;

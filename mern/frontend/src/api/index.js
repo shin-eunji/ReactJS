@@ -1,9 +1,9 @@
-import Fetch from '../lib/Fetch';
+import Fetchjson from '../lib/Fetch';
 
 const API = {
-    getTodos: () => Fetch.jsonGet('/todo'),
-    postTodos: (data) => Fetch.jsonPost('/todo', data),
-    deleteTodos: (id) => Fetch.jsonDelete('/todo/:id')
+    getTodos: () => Fetchjson.get('/todo'),
+    postTodos: (data) => Fetchjson.post('/todo', data),
+    deleteTodos: (id) => Fetchjson.delete('/todo/:id')
 }
 
 export default API;

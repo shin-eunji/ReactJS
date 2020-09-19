@@ -20,18 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc3d43f0-4a09-4e2e-b142-86acef70dbbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Todos/Form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mern-todo/backend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mern-todo/backend/.idea/backend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mern-todo/backend/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mern-todo/backend/controller/health.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mern-todo/backend/controller/todo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mern-todo/backend/models/todo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/mern.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/lib/Fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/lib/Fetch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/lib/History.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/lib/History.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/redux/sagas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/todos/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/redux/todos/saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/views/containers/Todos/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/containers/Todos/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Write.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Write.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-starter/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../react-starter/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-starter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../react-starter/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-starter/src/redux/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../react-starter/src/redux/actionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-starter/src/redux/app/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../react-starter/src/redux/app/redux.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-starter/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../react-starter/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react-starter/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +84,7 @@
       <workItem from="1600316705293" duration="2004000" />
       <workItem from="1600321088892" duration="7484000" />
       <workItem from="1600442470540" duration="1581000" />
+      <workItem from="1600492987315" duration="427000" />
     </task>
     <servers />
   </component>

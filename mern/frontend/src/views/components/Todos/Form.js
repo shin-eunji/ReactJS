@@ -8,7 +8,6 @@ function Form (props) {
 
     const {
         onSubmit,
-        defaultData
     } = props;
 
     const formRef = useRef(null);

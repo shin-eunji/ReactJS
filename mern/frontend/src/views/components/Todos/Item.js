@@ -5,11 +5,12 @@ function Item (props) {
 
     const {
         title,
-        body
+        body,
+        onClick
     } = props;
 
     return (
-        <Container>
+        <Container onClick={onClick}>
             <Title>{title}</Title>
             <Body>{body}</Body>
         </Container>

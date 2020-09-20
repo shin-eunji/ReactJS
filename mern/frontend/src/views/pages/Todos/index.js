@@ -14,9 +14,9 @@ function Todos (props) {
         <Container>
             <Switch>
                 <Route exact path={'/todos'} component={List} />
-                <Route path={'/todos/detail:id'} component={Detail} />
+                <Route path={'/todos/detail/:id'} component={Detail} />
                 <Route path={'/todos/write'} component={Write} />
-                <Route path={'/todos/update:id'} component={Update} />
+                <Route path={'/todos/update/:id'} component={Update} />
             </Switch>
         </Container>
     )

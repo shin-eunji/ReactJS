@@ -34,7 +34,7 @@ router.put('/:id', async (req, res) => {
     const id = req.params.id
     const {title, description} = req.body;
 
-    const result = await Todo.updateOne({_id: id}, {title, description});
+    const result = await  Todo.updateOne({_id: id}, {title, description});
 
     res.json(result)
 

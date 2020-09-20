@@ -11,7 +11,7 @@ const FetchConsts = {
 
 console.log("process.env.REACT_APP_API_URL", process.env.REACT_APP_API_URL);
 const axiosInstance = axios.create({
-    baseURL: "http://localhost:8080",
+    baseURL: process.env.REACT_APP_API_URL,
     timeout: 12000,
     headers: {
         "Context-Type": "application/json",
@@ -27,7 +27,7 @@ const request = async (method, url, data) => {
             ...data
         }
         
-        console.log("config", config);
+        // console.log("config", config);
 
         const result = await axiosInstance(config)
 
@@ -49,11 +49,11 @@ const Fetchjson = {
     },
 
     post: (url, data) => {
-        return request(FetchConsts.POST, url, data)
+        return request(FetchConsts.POST, url, {data})
     },
 
     update: (url, data) => {
-        return request(FetchConsts.PUT, url, data)
+        return request(FetchConsts.PUT, url, {data})
     },
 
     delete: (url) => {

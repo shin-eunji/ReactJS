@@ -1,12 +1,14 @@
 const express = require('express');
 const cors = require('cors');
-const dotenv = require('dotenv');
 const mongoose = require('mongoose')
+const dotenv = require('dotenv');
 
-const Health = require('./controller/health')
-const Todo = require('./controller/todo')
+const Health = require('./src/controller/health')
+const Todo = require('./src/controller/todo')
 
 dotenv.config();
+
+const app = express();
 
 mongoose.connect('mongodb+srv://koo6357:koo6357@cluster0.g50h2.mongodb.net/todo?retryWrites=true&w=majority')
     .then(res => {
@@ -16,7 +18,6 @@ mongoose.connect('mongodb+srv://koo6357:koo6357@cluster0.g50h2.mongodb.net/todo?
         console.log("err", err);
     })
 
-const app = express();
 
 app.use(cors());
 app.use(express.json());

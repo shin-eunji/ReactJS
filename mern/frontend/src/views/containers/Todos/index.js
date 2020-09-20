@@ -14,9 +14,11 @@ function TodosContainer (props) {
     return (
         <Container>
             <List data={list}
-                render={(item, index) => <Item key={index} {...item} />}
+                render={(item, index) => <Item key={index}
+                                               {...item}
+                onClick={() => navigate(`/todos/detail/${item._id}`)} />}
             />
-            <AddTodo onClick={() => navigate('/todos/wirte')}>추가하기</AddTodo>
+            <AddTodo onClick={() => navigate('/todos/write')}>추가하기</AddTodo>
         </Container>
     )
 }

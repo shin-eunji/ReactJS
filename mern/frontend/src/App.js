@@ -4,13 +4,12 @@ import Routes from "./Routes";
 
 
 
-function App (props) {
-
-    const {} = props;
+function App () {
 
     return (
         <Container>
             <Routes/>
+
         </Container>
     )
 }

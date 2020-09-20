@@ -1,33 +1,53 @@
-import React from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import styled from 'styled-components';
 import { useForm } from "react-hook-form";
+import {todosActions} from "../../../redux/actionCreators";
+import FormGroup from "../Form/FormGroup";
+import {Button} from "../Button/Button.Styled";
 function Form (props) {
 
-    const {} = props;
+    const {
+        onSubmit,
+        defaultData
+    } = props;
+
+    const formRef = useRef(null);
 
     const { register, handleSubmit, watch, errors } = useForm();
-    const onSubmit = data => console.log(data);
+    
+    console.log(watch('example'));
 
+    const [rect, setRect] = useState({})
+
+    useEffect(() => {
+        if(formRef.current) {
+            setRect(formRef.current.getBoundingClientRect())
+        }
+    }, [])
 
     return (
-        <Container>
+        <Container ref={formRef}>
             <form onSubmit={handleSubmit(onSubmit)}>
-                {/* register your input into the hook by invoking the "register" function */}
-                <input name="title" defaultValue="test" ref={register} />
-                <input name="body" ref={register({ required: true })} />
+                <FormGroup name="title"
+                           label="제목"
+                           register={register({ required: true })}
+                           errorType={errors?.title?.type}
+                />
+                <FormGroup name="body"
+                           label="내용"
+                           register={register({ required: true })}
+                           errorType={errors?.body?.type}
+                />
 
-                {/* include validation with required or other standard HTML validation rules */}
-                <input name="exampleRequired" ref={register({ required: true })} />
-                {/* errors will return when field validation fails  */}
 
-                <input type="submit" />
+                <Button sort={"primary"} >수정</Button>
             </form>
-            <input type="text"/>
-            <input type="text"/>
         </Container>
     )
 }
 
 const Container = styled.div`
+  max-width: 600px;
+  margin: 0 auto;
 `
 export default Form;

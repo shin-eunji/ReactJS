@@ -20,21 +20,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc3d43f0-4a09-4e2e-b142-86acef70dbbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../mern-todo/backend/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mern-todo/backend/.idea/backend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mern-todo/backend/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mern-todo/backend/controller/health.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mern-todo/backend/controller/todo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mern-todo/backend/models/todo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/mern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Button/Button.Styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Components.styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Form/FormGroup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Form/FormMessage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Popconfirm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mern-todo/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../../mern-todo/backend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mern-todo/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mern-todo/backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mern-todo/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../mern-todo/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mern-todo/backend/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../mern-todo/backend/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mern-todo/backend/src/controller/health.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../mern-todo/backend/src/controller/health.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mern-todo/backend/src/controller/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../mern-todo/backend/src/controller/todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mern-todo/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/../../mern-todo/frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/todo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-starter/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../react-starter/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-starter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../react-starter/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-starter/src/redux/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../react-starter/src/redux/actionCreators.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-starter/src/redux/app/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../react-starter/src/redux/app/redux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-starter/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../react-starter/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react-starter/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/lib/Fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/lib/Fetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/redux/actionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/app/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/redux/app/redux.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/todos/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/redux/todos/redux.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/todos/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/redux/todos/saga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Todos/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Todos/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Todos/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Todos/Item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/containers/Todos/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/containers/Todos/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Update.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Write.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Write.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +101,7 @@
       <workItem from="1600321088892" duration="7484000" />
       <workItem from="1600442470540" duration="1581000" />
       <workItem from="1600492987315" duration="427000" />
+      <workItem from="1600526649397" duration="3612000" />
     </task>
     <servers />
   </component>
@@ -104,9 +121,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="500" height="445" key="SwitcherDM" timestamp="1600401732201">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1600526881008">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1600401732201" />
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1600526881008" />
   </component>
 </project>

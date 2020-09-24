@@ -6,14 +6,14 @@ const initialState = {
 }
 
 export const Action = createActions({
-    updateState: ['state' ],
+    updateState: ['state'],
     getTodos: null,
     addTodo: ['data'],
     getTodoById: ['id'],
     updateTodoDetail: ['id', 'todo'],
     deleteTodo: ['id'],
     updateTodo: ['id', 'data']
-}, {prefix: 'APP'})
+}, {prefix: 'TODO'})
 
 
 export const reducer = createReducer(initialState, {

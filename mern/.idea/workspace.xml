@@ -20,15 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc06453a-8a29-48c0-a8aa-29183ede2b31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../mern-todo/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../mern-todo/backend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mern-todo/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mern-todo/backend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mern-todo/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../mern-todo/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mern-todo/backend/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mern-todo/backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mern-todo/backend/src/controller/health.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mern-todo/backend/src/controller/health.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mern-todo/backend/src/controller/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mern-todo/backend/src/controller/todo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mern-todo/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/../mern-todo/frontend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/redux/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/actionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/todos/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/todos/redux.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/todos/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/todos/saga.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +62,7 @@
       <updated>1600487089069</updated>
       <workItem from="1600487090741" duration="362000" />
       <workItem from="1600494366230" duration="5551000" />
+      <workItem from="1600923711043" duration="4767000" />
     </task>
     <servers />
   </component>
@@ -83,5 +80,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="541" y="280" width="598" height="490" key="find.popup" timestamp="1600924241164">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="541" y="280" width="598" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1600924241164" />
   </component>
 </project>

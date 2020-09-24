@@ -22,7 +22,6 @@
     <list default="true" id="dc3d43f0-4a09-4e2e-b142-86acef70dbbb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../mern-todo/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/../../mern-todo/frontend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/todo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,8 @@
       <workItem from="1600321088892" duration="7484000" />
       <workItem from="1600442470540" duration="1581000" />
       <workItem from="1600492987315" duration="427000" />
-      <workItem from="1600526649397" duration="8171000" />
+      <workItem from="1600526649397" duration="8268000" />
+      <workItem from="1600871219267" duration="311000" />
     </task>
     <servers />
   </component>

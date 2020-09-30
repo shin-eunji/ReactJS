@@ -1,18 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
-import Routes from "./Routes";
 
-function App (props) {
+function TodoItem (props) {
 
     const {} = props;
 
     return (
         <Container>
-            <Routes/>
+            TodoItem
         </Container>
     )
 }
 
 const Container = styled.div`
 `
-export default App;
+export default TodoItem;

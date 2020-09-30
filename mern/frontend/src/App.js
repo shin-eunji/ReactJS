@@ -2,13 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 import Routes from "./Routes";
 
-function App (props) {
 
-    const {} = props;
+
+function App () {
 
     return (
         <Container>
             <Routes/>
+
         </Container>
     )
 }

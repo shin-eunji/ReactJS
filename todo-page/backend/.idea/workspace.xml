@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da891823-c2cc-40d7-a700-b3ecb65501ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/health.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/todos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/todos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/Routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/lib/Fetch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/lib/History.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/redux/actionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/redux/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/redux/sagas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/redux/todos/redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/redux/todos/saga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/todos/Item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/todos/TodoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/pages/List.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Write.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mern-todo/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/../../mern-todo/frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mern/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo-app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1iDMMdzzyBMf6eHJH4fpxfYWbX2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da891823-c2cc-40d7-a700-b3ecb65501ec" name="Default Changelist" comment="" />
+      <created>1601437663419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601437663419</updated>
+      <workItem from="1601437665830" duration="5109000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1601441525790">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1601441525790" />
+    <state x="928" y="248" key="run.anything.popup" timestamp="1601440884387">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="928" y="248" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1601440884387" />
+  </component>
+</project>

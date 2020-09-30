@@ -19,7 +19,52 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="931913b6-1ce7-4206-b83b-6f9dc9f07cba" name="Default Changelist" comment="" />
+    <list default="true" id="931913b6-1ce7-4206-b83b-6f9dc9f07cba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../todo-page/backend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/backend/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/backend/src/controllers/health.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/backend/src/controllers/todos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/backend/src/models/todos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/Routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/lib/Fetch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/lib/History.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/redux/actionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/redux/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/redux/sagas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/redux/todos/redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/redux/todos/saga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/views/components/todos/Item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/views/components/todos/TodoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/views/pages/Detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/views/pages/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/views/pages/List.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/views/pages/Update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/views/pages/Write.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/views/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mern-todo/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/../mern-todo/frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mern/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-page/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-page/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-page/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-page/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/yarn.lock" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600146956438</updated>
       <workItem from="1600146957849" duration="9567000" />
+      <workItem from="1601447622935" duration="14000" />
     </task>
     <servers />
   </component>
@@ -79,6 +125,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="153" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600147002750">

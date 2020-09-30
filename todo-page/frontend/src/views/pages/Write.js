@@ -1,18 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
-import Routes from "./Routes";
 
-function App (props) {
+function Write (props) {
 
     const {} = props;
 
     return (
         <Container>
-            <Routes/>
+            Write
         </Container>
     )
 }
 
 const Container = styled.div`
 `
-export default App;
+export default Write;

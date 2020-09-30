@@ -1,8 +1,8 @@
-import {all, takeLatest, call, put} from "redux-saga/effects";
 import {Action} from "./redux";
 import API from "../../api";
+import {all, takeLatest, call, put} from "redux-saga/effects";
 
-export default function*() {
+export default function* () {
     yield all([
         takeLatest(Action.Types.GET_TODOS, function*() {
             const result = yield call(API.getTodos)

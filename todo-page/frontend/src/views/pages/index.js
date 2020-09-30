@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import {Switch, Route} from "react-router-dom";
 import List from "./List";
 import Write from "./Write";
+import Update from "./Update";
+import Detail from "./Detail";
 
 function Todos (props) {
 
@@ -11,8 +13,10 @@ function Todos (props) {
     return (
         <Container>
             <Switch>
-                <Route exact path={'/todos'} component={List}/>
-                <Route path={'/todos/write'} component={Write}/>
+                <Route exact path={'/todo'} component={List}/>
+                <Route path={'/todo/write'} component={Write}/>
+                <Route path={'/todo/update/:id'} component={Update}/>
+                <Route path={'/todo/detail/:id'} component={Detail}/>
             </Switch>
         </Container>
     )

@@ -5,7 +5,8 @@ const initialState = {
 export const Action = {
     Types: {
         UPDATE_STATE: 'UPDATE_STATE',
-        GET_TODOS: 'GET_TODOS'
+        GET_TODOS: 'GET_TODOS',
+        ADD_TODO: 'ADD_TODO'
     },
 
     Creators: {

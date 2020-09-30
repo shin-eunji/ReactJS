@@ -4,11 +4,13 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 
 const Health = require('./src/controllers/health');
-const Todos = require('./src/controllers/todos');
+const Todo = require('./src/controllers/todo');
 
-dotenv.config();
-const app = express();
-mongoose.connect('mongodb+srv://shineunji:wl1692@cluster0.a6n2n.mongodb.net/todo-page?retryWrites=true&w=majority')
+dotenv.config()
+
+const app = express()
+
+mongoose.connect('mongodb+srv://koo6357:koo6357@cluster0.g50h2.mongodb.net/todo-page?retryWrites=true&w=majority')
     .then((res) => {
         console.log("success connect");
     })
@@ -23,13 +25,13 @@ app.use(express.urlencoded({extended: true}));
 
 
 app.use('/health', Health)
-app.use('/todos', Todos)
+app.use('/todo', Todo)
 
 
 
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT
 
 app.listen(PORT,() => {
-    console.log(`Sever on ${PORT}`);
+    console.log(`Sever on ${PORT}`)
 })

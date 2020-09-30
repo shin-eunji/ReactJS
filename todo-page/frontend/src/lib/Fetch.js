@@ -11,6 +11,9 @@ const FetchConsts = {
 const axiosInstance = axios.create({
     baseURL: process.env.REACT_APP_API_URL,
     timeout: 12000,
+    headers: {
+        "Context-Type": "application/json",
+    }
 })
 
 const request = async (method, url, data) => {

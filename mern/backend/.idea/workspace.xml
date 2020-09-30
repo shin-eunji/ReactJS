@@ -21,7 +21,51 @@
   <component name="ChangeListManager">
     <list default="true" id="dc3d43f0-4a09-4e2e-b142-86acef70dbbb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../mern-todo/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/../../mern-todo/frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.idea/frontend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/Routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/api/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/lib/Fetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/lib/History.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/actionCreators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/app/redux.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/app/saga.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/reducers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/sagas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/todos/redux.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/todos/saga.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/scss/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Button/Button.Styled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Components.styled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Form/FormGroup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Form/FormMessage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Popconfirm/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Todos/Form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Todos/Item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Todos/List.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/containers/Todos/TodoItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/containers/Todos/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Home/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Detail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/List.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Write.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +118,7 @@
       <workItem from="1600492987315" duration="427000" />
       <workItem from="1600526649397" duration="8268000" />
       <workItem from="1600871219267" duration="311000" />
+      <workItem from="1601012949272" duration="1274000" />
     </task>
     <servers />
   </component>

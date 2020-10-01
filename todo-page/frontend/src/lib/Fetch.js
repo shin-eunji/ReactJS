@@ -3,13 +3,18 @@ import {navigate} from "./History";
 
 const FetchConsts = {
     GET: 'get',
-    PORT: 'port',
-    PUT: 'update',
+    POST: 'post',
+    PUT: 'put',
     DELETE: 'delete',
+
+    APPLICATION_JSON: 'application/json',
+    APPLICATION_X_WWW_FORM_URL_ENCODED: 'application/x-www-form-urlencoded',
+    MULTIPART_FORM_DATA: 'multipart/form-data',
+    TEXT_PLAIN: 'text/plain'
 }
 
 const axiosInstance = axios.create({
-    baseURL: process.env.REACT_APP_API_URL,
+    baseURL: "http://localhost:8080",
     timeout: 12000,
     headers: {
         "Context-Type": "application/json",
@@ -29,9 +34,11 @@ const request = async (method, url, data) => {
         return result.data
     }
     catch (e) {
-        if(e.response.status === 404) {
-            console.log("로그인이 만료되었습니다.");
-            navigate('/')
+        if(e.response) {
+            if(e.response.status === 404) {
+                console.log("로그인이 만료되었습니다.");
+                navigate('/')
+            }
         }
     }
 }

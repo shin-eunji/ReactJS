@@ -20,21 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc06453a-8a29-48c0-a8aa-29183ede2b31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/redux/app/redux.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/redux/app/saga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo-page/frontend/src/views/container/todos/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mern-todo/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/../mern-todo/frontend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../todo-page/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-page/backend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-page/frontend/src/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/redux/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-page/frontend/src/redux/actionCreators.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-page/frontend/src/redux/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/redux/sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-page/frontend/src/redux/sagas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-page/frontend/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/redux/todos/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-page/frontend/src/redux/todos/redux.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-page/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/lib/Fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-page/frontend/src/lib/Fetch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/redux/todos/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-page/frontend/src/redux/todos/saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/views/pages/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-page/frontend/src/views/pages/List.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/src/views/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-page/frontend/src/views/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-page/frontend/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,8 @@
       <workItem from="1600487090741" duration="362000" />
       <workItem from="1600494366230" duration="5551000" />
       <workItem from="1600923711043" duration="17693000" />
-      <workItem from="1601440425293" duration="9864000" />
+      <workItem from="1601440425293" duration="10194000" />
+      <workItem from="1601526076741" duration="1905000" />
     </task>
     <servers />
   </component>

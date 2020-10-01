@@ -1,6 +1,6 @@
+import {all, takeLatest, call, put} from 'redux-saga/effects';
 import {Action} from "./redux";
 import API from "../../api";
-import {all, takeLatest, call, put} from "redux-saga/effects";
 
 export default function* () {
     yield all([
